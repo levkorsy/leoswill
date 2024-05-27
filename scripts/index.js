@@ -219,7 +219,7 @@ $(function() {
     function getYearforCopy() {
         var d = new Date();
         var n = d.getFullYear();
-        document.getElementById("copyright").innerHTML = '@'+n;
+        document.getElementById("copyright").innerHTML = '© '+n;
     }
     getYearforCopy()
 

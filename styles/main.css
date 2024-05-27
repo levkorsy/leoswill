@@ -824,7 +824,7 @@ section:nth-of-type(4) .text {
   max-height: 85px;
 }
 section:nth-of-type(5) {
-  background: #252934;
+  background: var(--secondary);
   color: #fff;
   padding-top: 175px;
 }
@@ -1213,7 +1213,7 @@ footer .footnote .highlight {
   }
 
   .canvas {
-    background: #252934;
+    background: var(--secondary);
   }
 
   .button {
@@ -2845,7 +2845,7 @@ section:nth-of-type(4) .text {
   max-height: 85px;
 }
 section:nth-of-type(5) {
-  background: #252934;
+  background: var(--secondary);
   color: #fff;
   padding-top: 175px;
 }
@@ -3234,7 +3234,7 @@ footer .footnote .highlight {
   }
 
   .canvas {
-    background: #252934;
+    background: var(--secondary);
   }
 
   .button {
