@@ -3286,9 +3286,7 @@ footer .footnote .highlight {
     width: 270px;
   }
 }
-.info-title {
-  white-space: nowrap;
-}
+.info-title {}
 .info-body {
   text-align: justify;
 }
