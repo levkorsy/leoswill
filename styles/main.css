@@ -445,6 +445,7 @@ nav .active {
   font-size: 9pt;
   line-height: 14pt;
   margin-top: 13px;
+  white-space: pre;
 }
 .modal-wrap .mdi-open-in-new {
   font-size: 11pt;
@@ -736,7 +737,7 @@ section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
   background: url("../images/laptop-bg3.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("../images/travel.jpg") center center/cover;
+  background: url("../images/cherry.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
   background: url("../images/mdx-2.png") center center/cover;
@@ -2738,7 +2739,7 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("../images/slides/ordering-1.jpg") center center/cover;
+  background: url("../images/slides/oldfashioned-0.jpg") center center/cover;
   /* background-image: url("../images/laptop-bg3.png");
 background-repeat: no-repeat;
 background-position: center bottom;

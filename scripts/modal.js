@@ -1,19 +1,34 @@
 $(document).ready(function() {
       // MODAL
       var modalText = {
-        travel: {
-          title: 'Travel blog',
+        cherry: {
+          title: 'Cherry Smoked Old Fashioned',
           tag: 'Vacation platform',
           detail:
-            'Dig into our down-to-Earth budget travel guides from around the world, filled with itinerary ideas, travel tips, and recommendations for places to go.',
+            'Dig into our down-to-Earth budget cherry guides from around the world, filled with itinerary ideas, cherry tips, and recommendations for places to go.',
           link: ''
         },
-        ordering: {
-          title: 'CRM',
-          tag: 'CRM Evolution.',
-          detail:
-            'Evolution CRM is a strategy that companies use to manage interactions with customers and potential customers. CRM helps organisations streamline processes, build customer relationships, increase sales, improve customer service, and increase profitability.',
-          link: 'https://evolutioncrm.ai/'
+        oldfashioned: {
+          title: 'Old fashioned',
+          tag: 'Classic Smoked Old Fashioned',
+          detail: `
+              Ingredients:
+              60 ml bourbon \n
+              1 sugar cube
+              2-3 dashes of Angostura bitters
+              Orange peel
+              Wood chips for smoking
+              
+              Instructions:
+
+Place the sugar cube in a glass and add bitters.
+Muddle the sugar to dissolve it.
+Add ice and bourbon to the glass.
+Place the orange peel on the edge of the glass.
+Use a smoker to infuse the drink with smoke from the wood chips.
+Gently stir and serve.
+          `,
+          link: ''
         },
         mdx: {
           title: 'E-commerce',
