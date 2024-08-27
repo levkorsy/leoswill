@@ -25,6 +25,20 @@
     <script src="scripts/pt.min.js"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/modal.js"></script>
+<!--    <script>-->
+<!--      function loadComponent(url, elementId) {-->
+<!--        fetch(url)-->
+<!--                .then(response => response.text())-->
+<!--                .then(html => {-->
+<!--                  document.getElementById(elementId).innerHTML = html;-->
+<!--                })-->
+<!--                .catch(error => console.error('Error loading component:', error));-->
+<!--      }-->
+
+<!--      // loadComponent('header.html', 'header');-->
+<!--      loadComponent('components/contact.html', 'contact');-->
+<!--      // loadComponent('footer.html', 'footer');-->
+<!--    </script>-->
   </head>
   <body data-new-gr-c-s-check-loaded="14.981.0">
     <div class="overflow-wrap">
@@ -95,8 +109,8 @@
               <div class="active page-link" dest="home">Home</div>
               <div class="page-link" dest="about">about</div>
               <div class="page-link" dest="portfolio">recipes</div>
-              <div class="page-link" dest="blog">blog</div>
-              <div class="page-link" dest="contact">contact</div>
+              <div class="page-link" dest="blog">instructions</div>
+<!--              <div class="page-link" dest="contact">contact</div>-->
             </div>
             <i class="fa fa-bars" aria-hidden="true"></i>
 
@@ -337,10 +351,10 @@
         </div>
       </section>
 
-      <!-- BLOG -->
+<!--       BLOG AKA INSTRUCTIONS-->
       <section id="blog">
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
+              <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">Detailed Instructions for Using a Cocktail Smoker</div>
           <div
             class="header-bar waypoint"
             data-animation="slide-in-left"
@@ -349,100 +363,80 @@
           ></div>
 
           <div class="flex row wrap">
-            <div class="flex row-gt-sm">
-              <a
-                href="https://www.bacancytechnology.com/blog/vue-js-best-practices-2020"
-                target="_blank"
-              >
-                <div class="blog-wrap waypoint" data-animation="fade-in">
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-1"></div>
-                    <div class="label bold">
-                      Vue.js Best Practices. Modular Application.
-                    </div>
-                    <div class="date">May 14, 2020</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      When it comes to modern front-end development, Vue.js
-                      continues to become more and more ...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://www.thinkful.com/learn/javascript-best-practices-1/#Make-it-Understandable"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".2s"
-                  style="animation-delay: 0.2s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-2"></div>
-                    <div class="label bold">
-                      Javascript best practices. Christian Heilmann
-                    </div>
-                    <div class="date">May 19, 2017</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      Though JavaScript has a few notoriously tricky features,
-                      it's more important than ....
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="flex row-gt-sm">
-              <a
-                href="https://www.sitepoint.com/21-steps-to-becoming-a-successful-web-developer/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".4s"
-                  style="animation-delay: 0.4s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-3"></div>
-                    <div class="label bold">
-                      21 Steps to Becoming a Successful Web Developer
-                    </div>
-                    <div class="date">February 7, 2017</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      With the web development industry booming, many are asking
-                      the question: How do I become a...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://www.budibase.com/blog/web-development-tools/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".6s"
-                  style="animation-delay: 0.6s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-4"></div>
-                    <div class="label bold">
-                      Web development tools you must know about in 2020.
-                    </div>
-                    <div class="date">Feb 12, 2020</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      By:Joe Johnston.There are thousands of web development
-                      tools. Some great, some bad. Below, I....
-                    </div>
-                  </div>
-                </div>
-              </a>
+            <div class="instructions-container">
+              <h1 class="instructions__title">To ensure a seamless and enjoyable experience with your cocktail smoker, follow these detailed instructions:</h1>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Smoker Setup:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Place the smoker on an empty glass and attach the metal filter securely.</li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Wood Chips:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Use tongs to place a thin layer of wood chips (such as cherry, applewood, hickory, or oak) in the smoker chamber. Do not overfill; a small amount is sufficient to produce the desired smoke.</li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Torch:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">
+                    Hold the torch at a 90-degree angle. Ignite the wood chips by applying the flame directly to the chips for 5-7 seconds until they start to char and produce smoke.
+                    <ul class="instructions__sub-list">
+                      <li class="instructions__sub-item">Ensure to handle the torch safely and avoid direct contact with the wooden parts of the smoker to prevent damage.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Smoke Time:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Cover the glass with the smoker lid and let the smoke infuse for 1-2 minutes. The longer you leave it covered, the more intense the smoky flavor will be.</li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Handling Safety:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Carefully remove the smoker, avoiding contact with the hot metal filter to prevent burns.</li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Pour Whiskey:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Immediately pour your prepared whiskey or cocktail into the smoked glass. This step ensures that the smoky flavor integrates well with the drink.</li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Metal Ice Cubes:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Rinse and dry the metal cubes, place them in a velvet pouch, and chill in the refrigerator for 1-2 hours before use. Metal cubes are preferred over ice to avoid dilution of the cocktail.</li>
+                </ol>
+              </div>
+
+              <div class="instructions__section">
+                <h2 class="instructions__section-title">Serving:</h2>
+                <ol class="instructions__list">
+                  <li class="instructions__item">Add the chilled metal cubes directly to the whiskey or cocktail in the smoked glass and enjoy your drink.</li>
+                </ol>
+              </div>
+
+              <div class="tips">
+                <h2 class="tips__title">Additional Tips:</h2>
+                <ul class="tips__list">
+                  <li class="tips__item"><strong>Experiment with Smoking Times:</strong> Start with a shorter infusion time and adjust based on your taste preference for smokiness.</li>
+                  <li class="tips__item"><strong>Types of Wood Chips:</strong> Different woods impart different flavors. Cherry wood chips, for instance, are excellent for a smooth, sweet note, while oak chips provide a robust, rich flavor.</li>
+                  <li class="tips__item"><strong>Cleaning:</strong> Ensure you clean the smoker after each use. Knock loose any wood chips or charring from the screen and wipe the wooden parts with a dry or damp cloth as needed. Use the provided brush to clean the metal filter. Avoid submerging the smoker in water.</li>
+                </ul>
+              </div>
+
+              <p class="instructions__footer">These instructions should help you make the most of your cocktail smoker and create impressive, flavorful drinks. Enjoy your mixology adventure!</p>
             </div>
           </div>
         </div>
@@ -450,65 +444,6 @@
 
       <!-- CONTACT -->
       <section id="contact">
-        <svg
-          preserveAspectRatio="none"
-          viewBox="0 0 100 102"
-          height="75"
-          width="100%"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          class="svgcolor-light"
-        >
-          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-        </svg>
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">
-            CONTACT
-          </div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-right"
-            data-delay=".25s"
-            style="animation-delay: 0.25s"
-          ></div>
-          <div
-            class="highlight waypoint"
-            data-animation="slide-in-right"
-            data-delay=".5s"
-            style="animation-delay: 0.5s"
-          >
-            Have a question or want to work together?
-          </div>
-          <form
-            class="waypoint"
-            data-animation="pop-in"
-            data-delay=".5s"
-            id="contact-form"
-            style="animation-delay: 0.5s"
-          >
-            <input placeholder="Name" type="text" name="name" required="" />
-            <input
-              placeholder="Enter email"
-              type="email"
-              name="email"
-              required=""
-            />
-            <textarea
-              placeholder="Your Message"
-              type="text"
-              name="message"
-            ></textarea>
-            <div id="success">
-              <div>
-                Your message was sent successfully. Thanks!<span
-                  id="close"
-                  class="mdi mdi-close fas fa-times"
-                ></span>
-              </div>
-            </div>
-            <input class="button" type="submit" id="submit" value="SUBMIT" />
-          </form>
-        </div>
       </section>
 
       <footer>
