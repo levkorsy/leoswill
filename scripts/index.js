@@ -142,8 +142,8 @@ $(function() {
     function posFilterBar(elem) {
         var origin = $(elem)
             .parent()
-            .offset().left;
-        var pos = $(elem).offset().left;
+            .offset()?.left;
+        var pos = $(elem).offset()?.left;
         $('.float-bar').css({
             left: pos - origin,
             width: $(elem).innerWidth()
