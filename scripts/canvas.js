@@ -51,7 +51,7 @@ function getWebGLContext(canvas) {
         canvas.getContext("webgl", params) ||
         canvas.getContext("experimental-webgl", params);
 
-  var halfFloat = gl.getExtension("OES_texture_half_float");
+  var halfFloat = gl?.getExtension("OES_texture_half_float");
   var support_linear_float = gl.getExtension("OES_texture_half_float_linear");
 
   if (isWebGL2) {
