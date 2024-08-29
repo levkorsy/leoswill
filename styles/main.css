@@ -824,88 +824,7 @@ section:nth-of-type(4) .text {
   line-height: 13pt;
   max-height: 85px;
 }
-section:nth-of-type(5) {
-  background: var(--secondary);
-  color: #fff;
-  padding-top: 175px;
-}
-section:nth-of-type(5) .header {
-  color: #fff;
-}
-section:nth-of-type(5) .header-bar {
-  background: #fff;
-  margin: 25px 0 40px 0;
-  width: 110px;
-}
-section:nth-of-type(5) .highlight {
-  color: var(--primary);
-  font-weight: 600;
-}
-section:nth-of-type(5) svg {
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-section:nth-of-type(5) form {
-  margin: 40px auto 0 auto;
-  min-width: 95%;
-}
-section:nth-of-type(5) input[type="text"],
-section:nth-of-type(5) input[type="email"],
-section:nth-of-type(5) textarea {
-  background: #1e242c;
-  border: 0;
-  box-sizing: border-box;
-  color: #fff;
-  display: block;
-  font-size: 12pt;
-  margin-bottom: 3px;
-  outline: none;
-  padding: 10px 15px;
-  width: 100%;
-}
-section:nth-of-type(5) textarea {
-  margin-bottom: 5px;
-  min-height: 150px;
-}
-section:nth-of-type(5) .button {
-  background: transparent;
-  color: #fff;
-  float: right;
-  font-size: 12pt;
-  margin: 5px 0 0 0;
-  outline: 0;
-  padding: 10px 30px;
-}
-section:nth-of-type(5) .button:hover {
-  background: var(--primary);
-}
-section:nth-of-type(5) #success {
-  height: 0;
-  overflow: hidden;
-  position: relative;
-  transition: height 0.25s;
-  width: 100%;
-}
-section:nth-of-type(5) #success.expand {
-  height: 36px;
-}
-section:nth-of-type(5) #success div {
-  background: #04c986;
-  border: 1px solid #157c59;
-  color: #157051;
-  font-size: 10pt;
-  font-weight: 600;
-  padding: 5px 0;
-}
-section:nth-of-type(5) #close {
-  cursor: pointer;
-  font-size: 12pt;
-  font-weight: 600;
-  padding: 5px 15px;
-  position: absolute;
-  right: 0;
-}
+
 
 footer {
   background: var(--secondary);
@@ -1141,9 +1060,6 @@ footer .footnote .highlight {
   }
   section:nth-of-type(4) .thumb {
     height: 200px;
-  }
-  section:nth-of-type(5) form {
-    min-width: 500px;
   }
 }
 @media screen and (min-width: 960px) {
@@ -2845,88 +2761,6 @@ section:nth-of-type(4) .text {
   line-height: 13pt;
   max-height: 85px;
 }
-section:nth-of-type(5) {
-  background: var(--secondary);
-  color: #fff;
-  padding-top: 175px;
-}
-section:nth-of-type(5) .header {
-  color: #fff;
-}
-section:nth-of-type(5) .header-bar {
-  background: #fff;
-  margin: 25px 0 40px 0;
-  width: 110px;
-}
-section:nth-of-type(5) .highlight {
-  color: var(--primary);
-  font-weight: 600;
-}
-section:nth-of-type(5) svg {
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-section:nth-of-type(5) form {
-  margin: 40px auto 0 auto;
-  min-width: 95%;
-}
-section:nth-of-type(5) input[type="text"],
-section:nth-of-type(5) input[type="email"],
-section:nth-of-type(5) textarea {
-  background: #1e242c;
-  border: 0;
-  box-sizing: border-box;
-  color: #fff;
-  display: block;
-  font-size: 12pt;
-  margin-bottom: 3px;
-  outline: none;
-  padding: 10px 15px;
-  width: 100%;
-}
-section:nth-of-type(5) textarea {
-  margin-bottom: 5px;
-  min-height: 150px;
-}
-section:nth-of-type(5) .button {
-  background: transparent;
-  color: #fff;
-  float: right;
-  font-size: 12pt;
-  margin: 5px 0 0 0;
-  outline: 0;
-  padding: 10px 30px;
-}
-section:nth-of-type(5) .button:hover {
-  background: var(--primary);
-}
-section:nth-of-type(5) #success {
-  height: 0;
-  overflow: hidden;
-  position: relative;
-  transition: height 0.25s;
-  width: 100%;
-}
-section:nth-of-type(5) #success.expand {
-  height: 36px;
-}
-section:nth-of-type(5) #success div {
-  background: #04c986;
-  border: 1px solid #157c59;
-  color: #157051;
-  font-size: 10pt;
-  font-weight: 600;
-  padding: 5px 0;
-}
-section:nth-of-type(5) #close {
-  cursor: pointer;
-  font-size: 12pt;
-  font-weight: 600;
-  padding: 5px 15px;
-  position: absolute;
-  right: 0;
-}
 
 footer {
   background: var(--secondary);
@@ -3295,6 +3129,18 @@ footer .footnote .highlight {
 .info-title {}
 .info-body {
   text-align: justify;
+}
+
+.text-underline {
+  text-decoration: underline!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.text-bold {
+    font-weight: bold!important;
 }
 
 
