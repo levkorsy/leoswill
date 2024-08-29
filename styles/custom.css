@@ -79,7 +79,7 @@ section#portfolio, section#blog, section#tips{
     }
 
     & .guide__image{
-        width: 75%;
+        width: 50%;
         height: 100%;
         object-fit: cover;
         margin-top: 2em;
