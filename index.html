@@ -9,6 +9,7 @@
     />
 
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/custom.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v6.5.2/css/all.css"
@@ -218,12 +219,12 @@
 <!--            </div>-->
 <!--          </div>-->
 
-          <div class="skills-wrapper flex row-gt-sm">
+          <div class="skills-wrapper flex row-gt-sm welcome-container">
             <div
               class="flex waypoint"
               data-animation="slide-in-left"
             >
-<!--              <img src="images/smoker_box.jpg" class="me" alt="Avatar image"/>-->
+              <img src="images/about/a-lot-of-whiskey-bottles.jpg" class="welcome-img" alt="Avatar image"/>
               <h1 class="welcome__title">Welcome to Our Site!</h1>
 
               <div class="welcome__section">
@@ -249,361 +250,290 @@
                 <p class="welcome__paragraph">Join us on this adventure, discover new flavors, and make every sip count. Cheers!</p>
               </div>
 
-              <div class="welcome__footer">Cheers, Angelina and Leo</div>
+              <div class="welcome__footer"><span>~</span>  Cheers, Angelina and Leo <span>~</span></div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- PORTFOLIO AKA RECEPIES -->
-      <section class="flex" id="portfolio">
-        <div class="header waypoint" data-animation="slide-in-right">
-          Instructions for Enjoying Your Drink with the Cocktail Smoker Kit
+      <section id="portfolio">
+        <div class="container flex recipes-container">
+          <div class="header waypoint" data-animation="slide-in-right">
+            Instructions for Enjoying Your Drink with the Cocktail Smoker Kit
+          </div>
+
+          <div
+            class="header-bar waypoint"
+            data-animation="slide-in-right"
+            data-delay=".3s"
+            style="animation-delay: 0.3s"
+            ></div>
+            <img src="images/recepies/different_glasses.jpg" alt="Image of the smoker kit" class="recipes-img"/>
+
+
+          <div class="recipe__season">
+            <h2 class="recipe__season-title">Spring: Cherry Blossom Old Fashioned</h2>
+            <p class="recipe__paragraph"><strong>Spring is all about renewal and fresh beginnings.</strong> The Cherry Blossom Old Fashioned captures the light and floral notes of the season, perfect for enjoying the blossoming beauty around you.</p>
+
+            <h3 class="recipe__subtitle">Ingredients:</h3>
+            <ul class="recipe__ingredient-list">
+              <li>2 oz bourbon or rye whiskey (recommended: Buffalo Trace Bourbon or Bulleit Rye)</li>
+              <li>1 sugar cube</li>
+              <li>2 dashes Angostura bitters</li>
+              <li>1 bar spoon of cherry syrup</li>
+              <li>Orange twist</li>
+              <li>Metal whiskey stones</li>
+              <li>Cherry wood chips (using the provided wood chip tongs)</li>
+            </ul>
+
+            <h3 class="recipe__subtitle">Instructions:</h3>
+            <h4 class="recipe__instruction-title">1. Preparation:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">Muddle the sugar cube with the bitters and cherry syrup in a mixing glass until the sugar is dissolved.</li>
+              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
+              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+              <li class="recipe__list-item">Garnish with an orange twist.</li>
+            </ul>
+
+            <div class="recipe__alternative">
+              <h3>Smoking the Whiskey (Alternative):</h3>
+              <ul class="recipe__list">
+                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                <li class="recipe__list-item">Garnish with an orange twist</li>
+              </ul>
+            </div>
+
+            <h3>Preferred Whiskey:</h3>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Buffalo Trace Bourbon:</span>A well-rounded bourbon with rich caramel and vanilla notes, perfect for an Old Fashioned.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Known for its spiciness and complexity, it adds a unique depth to the cocktail.</li>
+              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+            </ul>
+          </div>
+
+          <div class="recipe__season">
+            <h2 class="recipe__season-title">Summer: Applewood Smoked Whiskey Smash</h2>
+            <p class="recipe__paragraph"><strong>Summer brings warmth and long, sunny days</strong>The Applewood Smoked Whiskey Smash is a refreshing cocktail with a burst of fresh mint and lemon, perfect for cooling off.</p>
+
+            <h3 class="recipe__subtitle">Ingredients:</h3>
+            <ul class="recipe__ingredient-list">
+              <li>2 oz bourbon (recommended: Maker's Mark) or rye whiskey (recommended: Bulleit Rye)</li>
+              <li>1/2 oz simple syrup</li>
+              <li>1/2 oz fresh lemon juice</li>
+              <li>4-5 fresh mint leaves</li>
+              <li>Lemon wheel for garnish</li>
+              <li>Metal whiskey stones</li>
+              <li>Apple wood chips (using the provided wood chip tongs)</li>
+            </ul>
+
+            <h3 class="recipe__subtitle">Instructions:</h3>
+            <h4 class="recipe__instruction-title">1. Preparation:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">In a mixing glass, muddle the mint leaves with simple syrup and lemon juice.</li>
+              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
+              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+              <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
+            </ul>
+
+            <div class="recipe__alternative">
+              <h3>Smoking the Whiskey (Alternative):</h3>
+              <ul class="recipe__list">
+                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
+              </ul>
+            </div>
+
+            <h3>Preferred Whiskey:</h3>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Maker's Mark Bourbon:</span>Known for its smooth and rich flavor, it complements the freshness of the mint and lemon.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Adds a spiciness that pairs well with the citrus and mint.</li>
+              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+            </ul>
+          </div>
+
+          <div class="recipe__season">
+            <h2 class="recipe__season-title">Fall: Hickory Smoked Maple Manhattan</h2>
+            <p class="recipe__paragraph"><strong>Fall is a season of rich colors and cozy flavors</strong>The Hickory Smoked Maple Manhattan combines the warmth of whiskey with the sweetness of maple syrup, perfect for cool autumn evenings.</p>
+
+            <h3 class="recipe__subtitle">Ingredients:</h3>
+            <ul class="recipe__ingredient-list">
+              <li>2 oz rye whiskey (recommended: Bulleit Rye or Woodford Reserve Rye)</li>
+              <li>1 oz sweet vermouth</li>
+              <li>1/4 oz pure maple syrup</li>
+              <li>2 dashes Angostura bitters</li>
+              <li>Maraschino cherry for garnish</li>
+              <li>Metal whiskey stones</li>
+              <li>Hickory wood chips (using the provided wood chip tongs)</li>
+            </ul>
+
+            <h3 class="recipe__subtitle">Instructions:</h3>
+            <h4 class="recipe__instruction-title">1. Preparation:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">In a mixing glass, combine the sweet vermouth, maple syrup, and bitters until well mixed.</li>
+              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
+              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+              <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
+            </ul>
+
+            <div class="recipe__alternative">
+              <h3>Smoking the Whiskey (Alternative):</h3>
+              <ul class="recipe__list">
+                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
+              </ul>
+            </div>
+
+            <h3>Preferred Whiskey:</h3>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Its spiciness complements the sweetness of the maple syrup and the richness of the vermouth.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Woodford Reserve Rye:</span>Offers a balanced flavor profile with notes of fruit and spice, enhancing the autumnal feel of the cocktail.</li>
+              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+            </ul>
+          </div>
+
+          <div class="recipe__season">
+            <h2 class="recipe__season-title">Winter: Oak Smoked Spiced Hot Toddy</h2>
+            <p class="recipe__paragraph"><strong>Winter calls for warm, spiced flavors to brighten the cold days.</strong>The Oak Smoked Spiced Hot Toddy is a cozy drink that brings the festive spirit to life, perfect for sipping by the fire.</p>
+
+            <h3 class="recipe__subtitle">Ingredients:</h3>
+            <ul class="recipe__ingredient-list">
+              <li>2 oz bourbon (recommended: Elijah Craig Small Batch) or rye whiskey (recommended: Rittenhouse Rye)</li>
+              <li>1 tbsp honey</li>
+              <li>1/2 oz fresh lemon juice</li>
+              <li>1 cinnamon stick</li>
+              <li>3 cloves</li>
+              <li>1 star anise</li>
+              <li>Hot water</li>
+              <li>Metal whiskey stones (optional for chilling the glass before adding hot water)</li>
+              <li>Oak wood chips (using the provided wood chip tongs)</li>
+            </ul>
+
+            <h3 class="recipe__subtitle">Instructions:</h3>
+            <h4 class="recipe__instruction-title">1. Preparation:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">In a mixing glass, combine honey, lemon juice, cinnamon stick, cloves, and star anise.</li>
+              <li class="recipe__list-item">Add hot water to dissolve the honey and stir.</li>
+              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+            </ul>
+
+            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+            <ul class="recipe__list">
+              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
+              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+              <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
+            </ul>
+
+            <div class="recipe__alternative">
+              <h3>Smoking the Whiskey (Alternative):</h3>
+              <ul class="recipe__list">
+                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
+                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
+                <li class="recipe__list-item">Quickly add the prepared mixture from the mixing glass into the smoked whiskey glass.</li>
+                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
+              </ul>
+            </div>
+
+            <h3>Preferred Whiskey:</h3>
+            <ul class="recipe__list">
+              <li class="recipe__list-item"><span class="recipe__highlight">Elijah Craig Small Batch Bourbon:</span>Its rich, full-bodied flavor pairs well with the spices and honey in the hot toddy.</li>
+              <li class="recipe__list-item"><span class="recipe__highlight">Rittenhouse Rye:</span>Adds a robust, spicy note that enhances the warmth and depth of the drink.</li>
+              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+            </ul>
+          </div>
+
+
+          <div class="recipe__footer"><span>~</span>Enjoy your smoked whiskey adventures with Angelina and Leo's Cocktail Smoker Kit!<span>~</span></div>
+
         </div>
-        <div
-          class="header-bar waypoint"
-          data-animation="slide-in-right"
-          data-delay=".3s"
-          style="animation-delay: 0.3s"
-        ></div>
-
-        <div class="recipe__season">
-          <h2 class="recipe__season-title">Spring: Cherry Blossom Old Fashioned</h2>
-          <p class="recipe__paragraph"><strong>Spring is all about renewal and fresh beginnings.</strong> The Cherry Blossom Old Fashioned captures the light and floral notes of the season, perfect for enjoying the blossoming beauty around you.</p>
-
-          <h3 class="recipe__subtitle">Ingredients:</h3>
-          <ul class="recipe__ingredient-list">
-            <li>2 oz bourbon or rye whiskey (recommended: Buffalo Trace Bourbon or Bulleit Rye)</li>
-            <li>1 sugar cube</li>
-            <li>2 dashes Angostura bitters</li>
-            <li>1 bar spoon of cherry syrup</li>
-            <li>Orange twist</li>
-            <li>Metal whiskey stones</li>
-            <li>Cherry wood chips (using the provided wood chip tongs)</li>
-          </ul>
-
-          <h3 class="recipe__subtitle">Instructions:</h3>
-          <h4 class="recipe__instruction-title">1. Preparation:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Muddle the sugar cube with the bitters and cherry syrup in a mixing glass until the sugar is dissolved.</li>
-            <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with an orange twist.</li>
-          </ul>
-
-
-          <h3>Smoking the Whiskey (Alternative):</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with an orange twist</li>
-          </ul>
-
-          <h3>Preferred Whiskey:</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Buffalo Trace Bourbon:</span>A well-rounded bourbon with rich caramel and vanilla notes, perfect for an Old Fashioned.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Known for its spiciness and complexity, it adds a unique depth to the cocktail.</li>
-            <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-          </ul>
-        </div>
-
-        <div class="recipe__season">
-          <h2 class="recipe__season-title">Summer: Applewood Smoked Whiskey Smash</h2>
-          <p class="recipe__paragraph"><strong>Summer brings warmth and long, sunny days</strong>The Applewood Smoked Whiskey Smash is a refreshing cocktail with a burst of fresh mint and lemon, perfect for cooling off.</p>
-
-          <h3 class="recipe__subtitle">Ingredients:</h3>
-          <ul class="recipe__ingredient-list">
-            <li>2 oz bourbon (recommended: Maker's Mark) or rye whiskey (recommended: Bulleit Rye)</li>
-            <li>1/2 oz simple syrup</li>
-            <li>1/2 oz fresh lemon juice</li>
-            <li>4-5 fresh mint leaves</li>
-            <li>Lemon wheel for garnish</li>
-            <li>Metal whiskey stones</li>
-            <li>Apple wood chips (using the provided wood chip tongs)</li>
-          </ul>
-
-          <h3 class="recipe__subtitle">Instructions:</h3>
-          <h4 class="recipe__instruction-title">1. Preparation:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">In a mixing glass, muddle the mint leaves with simple syrup and lemon juice.</li>
-            <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
-          </ul>
-
-          <h3>Smoking the Whiskey (Alternative):</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
-          </ul>
-
-          <h3>Preferred Whiskey:</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Maker's Mark Bourbon:</span>Known for its smooth and rich flavor, it complements the freshness of the mint and lemon.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Adds a spiciness that pairs well with the citrus and mint.</li>
-            <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-          </ul>
-        </div>
-
-        <div class="recipe__season">
-          <h2 class="recipe__season-title">Fall: Hickory Smoked Maple Manhattan</h2>
-          <p class="recipe__paragraph"><strong>Fall is a season of rich colors and cozy flavors</strong>The Hickory Smoked Maple Manhattan combines the warmth of whiskey with the sweetness of maple syrup, perfect for cool autumn evenings.</p>
-
-          <h3 class="recipe__subtitle">Ingredients:</h3>
-          <ul class="recipe__ingredient-list">
-            <li>2 oz rye whiskey (recommended: Bulleit Rye or Woodford Reserve Rye)</li>
-            <li>1 oz sweet vermouth</li>
-            <li>1/4 oz pure maple syrup</li>
-            <li>2 dashes Angostura bitters</li>
-            <li>Maraschino cherry for garnish</li>
-            <li>Metal whiskey stones</li>
-            <li>Hickory wood chips (using the provided wood chip tongs)</li>
-          </ul>
-
-          <h3 class="recipe__subtitle">Instructions:</h3>
-          <h4 class="recipe__instruction-title">1. Preparation:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">In a mixing glass, combine the sweet vermouth, maple syrup, and bitters until well mixed.</li>
-            <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
-          </ul>
-
-          <h3>Smoking the Whiskey (Alternative):</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
-          </ul>
-
-          <h3>Preferred Whiskey:</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Its spiciness complements the sweetness of the maple syrup and the richness of the vermouth.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Woodford Reserve Rye:</span>Offers a balanced flavor profile with notes of fruit and spice, enhancing the autumnal feel of the cocktail.</li>
-            <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-          </ul>
-        </div>
-
-        <div class="recipe__season">
-          <h2 class="recipe__season-title">Winter: Oak Smoked Spiced Hot Toddy</h2>
-          <p class="recipe__paragraph"><strong>Winter calls for warm, spiced flavors to brighten the cold days.</strong>The Oak Smoked Spiced Hot Toddy is a cozy drink that brings the festive spirit to life, perfect for sipping by the fire.</p>
-
-          <h3 class="recipe__subtitle">Ingredients:</h3>
-          <ul class="recipe__ingredient-list">
-            <li>2 oz bourbon (recommended: Elijah Craig Small Batch) or rye whiskey (recommended: Rittenhouse Rye)</li>
-            <li>1 tbsp honey</li>
-            <li>1/2 oz fresh lemon juice</li>
-            <li>1 cinnamon stick</li>
-            <li>3 cloves</li>
-            <li>1 star anise</li>
-            <li>Hot water</li>
-            <li>Metal whiskey stones (optional for chilling the glass before adding hot water)</li>
-            <li>Oak wood chips (using the provided wood chip tongs)</li>
-          </ul>
-
-          <h3 class="recipe__subtitle">Instructions:</h3>
-          <h4 class="recipe__instruction-title">1. Preparation:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">In a mixing glass, combine honey, lemon juice, cinnamon stick, cloves, and star anise.</li>
-            <li class="recipe__list-item">Add hot water to dissolve the honey and stir.</li>
-            <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-          </ul>
-
-          <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
-          </ul>
-
-          <h3>Smoking the Whiskey (Alternative):</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            <li class="recipe__list-item">Quickly add the prepared mixture from the mixing glass into the smoked whiskey glass.</li>
-            <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-            <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
-          </ul>
-
-          <h3>Preferred Whiskey:</h3>
-          <ul class="recipe__list">
-            <li class="recipe__list-item"><span class="recipe__highlight">Elijah Craig Small Batch Bourbon:</span>Its rich, full-bodied flavor pairs well with the spices and honey in the hot toddy.</li>
-            <li class="recipe__list-item"><span class="recipe__highlight">Rittenhouse Rye:</span>Adds a robust, spicy note that enhances the warmth and depth of the drink.</li>
-            <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-          </ul>
-        </div>
-
-
-        <div class="recipe__footer">Enjoy your smoked whiskey adventures with Angelina and Leo's Cocktail Smoker Kit!</div>
-<!--        <div class="filter-wrap waypoint" data-animation="fade-in">-->
-<!--          <div class="flex row">-->
-<!--            <div class="filter active" data-filter="all">ALL</div>-->
-<!--            <div class="filter" data-filter=".old">Smoked Old Fashioned</div>-->
-<!--            <div class="filter" data-filter=".maple">Smoked Maple Bourbon</div>-->
-<!--            <div class="filter" data-filter=".negroni">Smoked Negroni</div>-->
-<!--            <div class="filter" data-filter=".manhattan">Smoked Manhattan</div>-->
-<!--          </div>-->
-<!--          <div class="float-bar" style="left: 25px; width: 116px">-->
-<!--            <div class="flex row" style="left: -25px">-->
-<!--              <div class="filter active" data-filter="all">ALL</div>-->
-<!--              <div class="filter" data-filter=".old">Smoked Old Fashioned</div>-->
-<!--              <div class="filter" data-filter=".maple">Smoked Maple Bourbon</div>-->
-<!--              <div class="filter" data-filter=".negroni">Smoked Negroni</div>-->
-<!--              <div class="filter" data-filter=".manhattan">Smoked Manhattan</div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        <div id="gallery" class="container flex row wrap waypoint">-->
-<!--          <div-->
-<!--            class="mix old"-->
-<!--            data-my-order="1"-->
-<!--            style="display: inline-block"-->
-<!--            data-bound=""-->
-<!--          >-->
-<!--            <div>-->
-<!--              <div class="card"></div>-->
-<!--              <div class="text">-->
-<!--                <div class="bold">Old fashioned</div>-->
-<!--                <span class="highlight">Smoked apple</span>-->
-<!--              </div>-->
-<!--              <div class="button" id="oldfashioned">Show the recip</div>-->
-<!--            </div>-->
-<!--          </div>-->
-
-<!--          <div-->
-<!--            class="mix maple"-->
-<!--            data-my-order="1"-->
-<!--            style="display: inline-block"-->
-<!--            data-bound=""-->
-<!--          >-->
-<!--            <div>-->
-<!--              <div class="card"></div>-->
-<!--              <div class="text">-->
-<!--                <div class="bold">Cherry Smoked Old Fashioned</div>-->
-<!--                <span class="highlight">Old Fashioned</span>-->
-<!--              </div>-->
-<!--              <div class="button" id="cherry">Let me try</div>-->
-<!--            </div>-->
-<!--          </div>-->
-
-<!--          <div-->
-<!--            class="mix negroni"-->
-<!--            data-my-order="1"-->
-<!--            style="display: inline-block"-->
-<!--            data-bound=""-->
-<!--          >-->
-<!--            <div>-->
-<!--              <div class="card"></div>-->
-<!--              <div class="text">-->
-<!--                <div class="bold">E-commerce</div>-->
-<!--                <span class="highlight">Anguilar / NodeJs / MONGO</span>-->
-<!--              </div>-->
-<!--              <div class="button" id="mdx">LEARN MORE</div>-->
-<!--            </div>-->
-<!--          </div>-->
-
-<!--          <div-->
-<!--            class="mix manhattan"-->
-<!--            data-my-order="1"-->
-<!--            style="display: inline-block"-->
-<!--            data-bound=""-->
-<!--          >-->
-<!--            <div>-->
-<!--              <div class="card"></div>-->
-<!--              <div class="text">-->
-<!--                <div class="bold">E-commerce</div>-->
-<!--                <span class="highlight">Anguilar / NodeJs / MONGO</span>-->
-<!--              </div>-->
-<!--              <div class="button" id="mdx">LEARN MORE</div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
       </section>
 
 <!--       BLOG AKA INSTRUCTIONS-->
       <section id="blog">
               <div class="container flex">
                 <div class="header waypoint" data-animation="slide-in-left">Detailed Instructions for Using a Cocktail Smoker</div>
-          <div
+                <div
             class="header-bar waypoint"
             data-animation="slide-in-left"
             data-delay=".5s"
             style="animation-delay: 0.5s"
           ></div>
 
-          <div class="flex row wrap">
+                <div class="flex row wrap">
             <div class="instructions-container">
               <h1 class="instructions__title">To ensure a seamless and enjoyable experience with your cocktail smoker, follow these detailed instructions:</h1>
 
@@ -680,6 +610,129 @@
               <p class="instructions__footer">These instructions should help you make the most of your cocktail smoker and create impressive, flavorful drinks. Enjoy your mixology adventure!</p>
             </div>
           </div>
+
+                <div>
+                  <h1 class="guide__title">Detailed Instructions for Using Metal Whiskey Stones with Gel Inside</h1>
+
+                  <section class="guide__section">
+                    <h2 class="guide__section-title">Setup and Usage:</h2>
+
+                    <h3 class="guide__section-title">1. Preparation:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Rinse the metal whiskey stones with water to remove any residue from storage.</li>
+                      <li class="guide__list-item">Dry the stones thoroughly before chilling.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">2. Chilling:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Place the clean and dry metal whiskey stones in the velvet pouch provided.</li>
+                      <li class="guide__list-item">Put the pouch in the freezer for at least 2 hours before use. The gel inside the stones will freeze, ensuring they stay cold for a long time.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">3. Using the Whiskey Stones:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Once chilled, add 2-3 stones to your glass of whiskey, cocktail, or any preferred beverage.</li>
+                      <li class="guide__list-item">Let the stones sit in the drink for a few minutes to chill it without diluting the flavor.</li>
+                      <li class="guide__list-item">Enjoy your perfectly chilled drink!</li>
+                    </ul>
+                  </section>
+
+                  <section class="guide__section">
+                    <h2 class="guide__section-title">Advantages of Metal Whiskey Stones over Regular Ice Cubes:</h2>
+
+                    <h3 class="guide__section-title">1. Non-Diluting:</h3>
+                    <ul class="guide__sub-list">
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Metal whiskey stones do not melt, which means they chill your drink without watering it down. This preserves the original flavor and strength of your beverage.</li>
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> As ice cubes melt, they dilute the drink, altering its taste and reducing its potency.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">2. Long-Lasting Cooling:</h3>
+                    <ul class="guide__sub-list">
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The gel inside metal whiskey stones freezes and stays cold for an extended period, providing consistent cooling throughout your drinking experience.</li>
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes can melt relatively quickly, especially in warm environments, reducing their effectiveness over time.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">3. Material and Safety:</h3>
+                    <ul class="guide__sub-list">
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Made from food-grade stainless steel, metal whiskey stones are safe, durable, and resistant to corrosion. They do not impart any off flavors or odors to the drink.</li>
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes are made from water and can sometimes carry impurities or flavors from the freezer.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">4. Reusable:</h3>
+                    <ul class="guide__sub-list">
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Metal whiskey stones are reusable. Simply rinse them after use, dry, and place them back in the freezer for the next use.</li>
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes are single-use and need to be replaced for each drink, requiring a constant supply of clean water and freezer space.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">5. Aesthetic Appeal:</h3>
+                    <ul class="guide__sub-list">
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The sleek, modern look of stainless steel stones adds a touch of elegance to any drink, making them a perfect addition for entertaining guests or for personal enjoyment.</li>
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Traditional ice cubes are practical but lack the visual appeal of metal whiskey stones.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">6. Enhanced Cooling Efficiency:</h3>
+                    <ul class="guide__sub-list">
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The gel core inside the stones enhances their cooling capacity, making them more efficient at chilling beverages compared to regular solid metal stones.</li>
+                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes provide effective cooling but melt over time, which can lead to inconsistent temperature control.</li>
+                    </ul>
+                  </section>
+
+                  <section class="guide__section">
+                    <h2 class="guide__section-title">Versatility: Where and How to Use Metal Whiskey Stones:</h2>
+
+                    <h3 class="guide__section-title">1. At Home:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Perfect for chilling whiskey, bourbon, scotch, and other spirits without dilution.</li>
+                      <li class="guide__list-item">Use them in cocktails to maintain the integrity of mixed drinks.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">2. At Parties:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Impress guests with elegant, non-diluting cooling stones in their drinks.</li>
+                      <li class="guide__list-item">Use them in wine and champagne glasses to keep beverages cold without watering them down.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">3. Outdoor Events:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Ideal for picnics and BBQs where ice might melt quickly.</li>
+                      <li class="guide__list-item">Great for camping trips to keep your beverages cold without the hassle of ice.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">4. In the Office:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Keep a set in the office freezer to enjoy a perfectly chilled drink after a long day.</li>
+                      <li class="guide__list-item">Use them to cool non-alcoholic beverages like iced tea, soda, or juice.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">5. Travel:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Easy to pack and carry for vacations or business trips.</li>
+                      <li class="guide__list-item">Enjoy chilled drinks in your hotel room without relying on hotel ice.</li>
+                    </ul>
+                  </section>
+
+                  <section class="guide__section">
+                    <h2 class="guide__section-title">Cleaning and Maintenance:</h2>
+
+                    <h3 class="guide__section-title">1. Post-Use Cleaning:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">After use, rinse the stones under warm water to remove any beverage residue.</li>
+                      <li class="guide__list-item">Dry them thoroughly with a soft cloth or allow them to air dry.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">2. Storage:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">Store the clean and dry stones in their velvet pouch. This keeps them free from dust and ready for the next use.</li>
+                    </ul>
+
+                    <h3 class="guide__section-title">3. Avoid Submersion in Water:</h3>
+                    <ul class="guide__list">
+                      <li class="guide__list-item">While the stones are designed to be durable, avoid submerging them in water for prolonged periods, as this can affect the gel core.</li>
+                    </ul>
+                  </section>
+
+                  <footer class="guide__footer">By following these instructions and understanding the benefits, you can maximize your enjoyment of using metal whiskey stones with gel inside. Cheers to a perfectly chilled drink!</footer>
+                </div>
         </div>
       </section>
 
