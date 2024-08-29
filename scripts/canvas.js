@@ -51,7 +51,7 @@ function getWebGLContext(canvas) {
         canvas.getContext("webgl", params) ||
         canvas.getContext("experimental-webgl", params);
 
-  var halfFloat = gl.getExtension("OES_texture_half_float");
+  var halfFloat = gl?.getExtension("OES_texture_half_float");
   var support_linear_float = gl.getExtension("OES_texture_half_float_linear");
 
   if (isWebGL2) {
@@ -568,10 +568,10 @@ function m(t) {
   for (
       var e,
           n = document.getElementById(t),
-          i = n.innerHTML.replace("&amp;", "&").split(""),
+          i = n?.innerHTML.replace("&amp;", "&").split(""),
           a = "",
           o = 0,
-          s = i.length;
+          s = i?.length;
       s > o;
       o++
   ) {
@@ -580,12 +580,15 @@ function m(t) {
         ? '<span class="letter-' + o + '">' + e + "</span>"
         : "&nbsp;";
   }
+if (n) {
 
   n.innerHTML = a;
-
   setTimeout(function() {
     n.className = "transition-in";
   }, 500 * Math.random() + 500);
+}
+
+
 }
 
 window.onload = function() {

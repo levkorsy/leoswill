@@ -1,0 +1,88 @@
+.welcome-container, .recipes-container, .guide__container, .tips__container{
+    text-align: justify;
+    & p{
+        text-indent: 2em;
+    }
+
+    & .header{
+        font-size: 2em;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+.welcome-img, .recipes-img{
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.welcome__section {
+    width: 100%;
+}
+
+.welcome__footer, .recipe__footer {
+    margin-top: 2rem;
+    font-size: 2em;
+    font-weight: bold;
+    & span {
+        color: var(--tertiary);
+    }
+}
+
+.recipes-container {
+    & .header{
+        font-size: 2em;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    & .recipe__season-title{
+        text-decoration: underline;
+    }
+
+    & .recipe__footer{
+        font-size: 1.5em;
+        & span {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    & .recipe__alternative {
+        border: 1px dashed gray;
+        border-radius: 8px;
+        padding: 1em;
+    }
+}
+
+section#portfolio, section#blog, section#tips{
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.guide__container{
+    & .header{
+        font-size: 2em;
+        line-height: 1.5;
+        text-align: center;    }
+
+    & .instructions__title{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    & .tips {
+        border: 1px dashed gray;
+        border-radius: 8px;
+        padding: 1em;
+    }
+
+    & .guide__image{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
