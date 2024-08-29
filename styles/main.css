@@ -766,10 +766,7 @@ section:nth-of-type(3) #gallery .mix:hover .button {
 section .flex-50-gt-sm {
   display: block;
 }
-section:nth-of-type(4) {
-  padding: 130px 0 100px 0;
-  text-align: left;
-}
+
 section:nth-of-type(4) .flex.row-gt-sm,
 section:nth-of-type(4) .flex.wrap {
   align-items: flex-start;
@@ -2410,12 +2407,6 @@ nav .active {
   opacity: 1;
 }
 
-section {
-  color: #616161;
-  line-height: 11pt;
-  padding: 70px 0 70px 0;
-  position: relative;
-}
 section .container {
   box-sizing: border-box;
   margin: 0 auto;
@@ -2691,10 +2682,7 @@ section:nth-of-type(3) #gallery .mix:hover .button {
 section .flex-50-gt-sm {
   display: block;
 }
-section:nth-of-type(4) {
-  padding: 130px 0 100px 0;
-  text-align: left;
-}
+
 section:nth-of-type(4) .flex.row-gt-sm,
 section:nth-of-type(4) .flex.wrap {
   align-items: flex-start;
