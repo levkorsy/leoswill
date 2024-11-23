@@ -1,14 +1,19 @@
-// Получаем все видео на странице
+// Функция для проверки мобильного устройства
+function isMobileDevice() {
+    return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Получаем все видео
 const videos = document.querySelectorAll('video');
 
 // Настраиваем IntersectionObserver
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            // Видео во вьюпорте — запускаем
+        if (entry.isIntersecting && !isMobileDevice()) {
+            // Если устройство не мобильное и видео во вьюпорте, запускаем
             entry.target.play();
         } else {
-            // Видео вне вьюпорта — ставим на паузу
+            // Ставим на паузу в любом случае, если видео выходит из вьюпорта
             entry.target.pause();
         }
     });
@@ -16,5 +21,13 @@ const observer = new IntersectionObserver((entries) => {
 
 // Подключаем observer к каждому видео
 videos.forEach((video) => {
-    observer.observe(video);
+    if (isMobileDevice()) {
+        // На мобильных устройствах убираем autoplay и loop
+        video.removeAttribute('autoplay');
+        video.removeAttribute('loop');
+        video.pause();
+    } else {
+        // На десктопах наблюдаем за видео
+        observer.observe(video);
+    }
 });
