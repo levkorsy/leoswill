@@ -2198,5 +2198,16 @@ footer .footnote .highlight {
     line-height: 1.5!important;
 }
 
+.about-video-container{
+  position: relative; /* Позволяет работать с шириной/высотой */
+  width: 100vw; /* Занимает 100% ширины окна браузера */
+  height: auto; /* Высота зависит от содержимого */
+  left: 50%; /* Центрируем контейнер */
+  transform: translateX(-50%); /* Убираем смещение */
+}
 
- 
+.about-video {
+  width: 100%; /* Видео занимает всю ширину контейнера */
+  height: auto; /* Высота автоматически подстраивается для сохранения пропорций */
+  display: block; /* Убираем возможные пробелы под видео */
+}
