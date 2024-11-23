@@ -10,10 +10,8 @@ const videos = document.querySelectorAll('video');
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting && !isMobileDevice()) {
-            // Если устройство не мобильное и видео во вьюпорте, запускаем
             entry.target.play();
         } else {
-            // Ставим на паузу в любом случае, если видео выходит из вьюпорта
             entry.target.pause();
         }
     });
@@ -22,12 +20,10 @@ const observer = new IntersectionObserver((entries) => {
 // Подключаем observer к каждому видео
 videos.forEach((video) => {
     if (isMobileDevice()) {
-        // На мобильных устройствах убираем autoplay и loop
+        // Оставляем видео видимым, но без autoplay
         video.removeAttribute('autoplay');
-        video.removeAttribute('loop');
         video.pause();
     } else {
-        // На десктопах наблюдаем за видео
         observer.observe(video);
     }
 });
