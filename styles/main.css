@@ -297,9 +297,9 @@ footer .mdi-chevron-double-up:hover {
   section:nth-of-type(2) .bullet-wrap {
     height: 230px;
   }
-  section:nth-of-type(2) .skills-wrapper > .flex:first-child {
-    padding: 0 50px 0 50px;
-  }
+  /*section:nth-of-type(2) .skills-wrapper > .flex:first-child {*/
+  /*  padding: 0 50px 0 50px;*/
+  /*}*/
   section:nth-of-type(2) .skills-wrapper .me {
     height: 250px;
   }
@@ -1240,7 +1240,7 @@ body {
 .header-bar {
   background: #444649;
   height: 4px;
-  margin: 25px 0 75px 0;
+  margin: 25px 0 25px 0;
   width: 70px;
 }
 
@@ -1995,7 +1995,7 @@ footer .footnote .highlight {
     height: 230px;
   }
   section:nth-of-type(2) .skills-wrapper > .flex:first-child {
-    padding: 0 50px 0 50px;
+    /*padding: 0 50px 0 50px;*/
   }
   section:nth-of-type(2) .skills-wrapper .me {
     height: 250px;
@@ -2143,9 +2143,9 @@ footer .footnote .highlight {
   section:nth-of-type(2) .bars-wrap {
     margin: 0 0 0 0;
   }
-  section:nth-of-type(2) .skills-wrapper {
-    margin: 50px 0 0 0;
-  }
+  /*section:nth-of-type(2) .skills-wrapper {*/
+  /*  margin: 50px 0 0 0;*/
+  /*}*/
   section:nth-of-type(2) .skills-wrapper .me {
     margin: 0;
   }
@@ -2204,6 +2204,7 @@ footer .footnote .highlight {
   height: auto; /* Высота зависит от содержимого */
   left: 50%; /* Центрируем контейнер */
   transform: translateX(-50%); /* Убираем смещение */
+  margin-bottom: 2%;
 }
 
 .about-video {

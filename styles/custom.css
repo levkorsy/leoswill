@@ -1,18 +1,18 @@
-.welcome-container, .recipes-container, .guide__container, .tips__container{
+.welcome-container, .recipes-container, .guide__container, .tips__container {
     text-align: justify;
 
-    & p{
+    & p {
         text-indent: 2em;
     }
 
-    & .header{
+    & .header {
         font-size: 2em;
         line-height: 1.5;
         text-align: center;
     }
 }
 
-.welcome-img, .recipes-img{
+.welcome-img, .recipes-img {
     width: 75%;
     height: 100%;
     object-fit: cover;
@@ -25,10 +25,11 @@
 .welcome__section {
     width: 100%;
 
-    & .welcome__section-photo-container{
+    & .welcome__section-photo-container {
         display: flex; /* Flexbox для размещения фотографий */
         gap: 20px; /* Расстояние между фотографиями */
         flex-wrap: wrap; /* Позволяет фотографиям переноситься на новую строку */
+        margin-bottom: 3rem;
 
         & img {
             width: calc(50% - 10px); /* Каждое фото занимает 50% ширины, минус половина gap */
@@ -42,6 +43,7 @@
             }
         }
     }
+
 }
 
 .welcome__footer, .recipe__footer {
@@ -49,24 +51,26 @@
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+
     & span {
         color: var(--tertiary);
     }
 }
 
 .recipes-container {
-    & .header{
+    & .header {
         font-size: 2em;
         line-height: 1.5;
         text-align: center;
     }
 
-    & .recipe__season-title{
+    & .recipe__season-title {
         text-decoration: underline;
     }
 
-    & .recipe__footer{
+    & .recipe__footer {
         font-size: 1.5em;
+
         & span {
             margin-left: 5px;
             margin-right: 5px;
@@ -80,18 +84,19 @@
     }
 }
 
-section#portfolio, section#blog, section#tips{
+section#portfolio, section#blog, section#tips {
     padding-right: 2rem;
     padding-left: 1.5rem;
 }
 
-.guide__container{
-    & .header{
+.guide__container {
+    & .header {
         font-size: 2em;
         line-height: 1.5;
-        text-align: center;    }
+        text-align: center;
+    }
 
-    & .instructions__title{
+    & .instructions__title {
         text-align: center;
         text-decoration: underline;
     }
@@ -102,7 +107,7 @@ section#portfolio, section#blog, section#tips{
         padding: 1em;
     }
 
-    & .guide__image{
+    & .guide__image {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -110,7 +115,7 @@ section#portfolio, section#blog, section#tips{
         margin-bottom: 2em;
     }
 
-    & .instructions__img{
+    & .instructions__img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -118,7 +123,7 @@ section#portfolio, section#blog, section#tips{
         margin-bottom: 2em;
     }
 
-    & .guide__video-container{
+    & .guide__video-container {
         /*display: flex; !* Для центрирования *!*/
         /*justify-content: center; !* Горизонтальное центрирование *!*/
         /*align-items: center; !* Вертикальное центрирование *!*/
@@ -152,6 +157,7 @@ section#portfolio, section#blog, section#tips{
             & video {
                 width: 325px !important;
             }
+
             & .text-content {
                 text-align: center; /* Центрируем текст */
             }
@@ -159,4 +165,39 @@ section#portfolio, section#blog, section#tips{
 
 
     }
+}
+
+.section__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
+@media (max-width: 1210px) {
+    .section__content {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section__content {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__content {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section__content {
+        max-width: 300px;
+    }
+}
+
+.final-lane{
+    font-size: 1.5em;
 }

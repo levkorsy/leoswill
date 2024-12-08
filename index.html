@@ -18,7 +18,7 @@
     />
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="icon" sizes="16x16 32x32" type="image/png" href="/images/lw_logo.png">
+    <link rel="icon" sizes="16x16 32x32" type="image/png" href="./images/lw_logo.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
@@ -70,9 +70,7 @@
         <div id="pt" class="canvas">
           <canvas
             id="canvas"
-            width="1920"
-            height="990"
-            style="width: 1920px; height: 990px"
+            style="width: 1920px; height: 100%"
           ></canvas>
         </div>
 
@@ -125,17 +123,15 @@
               class="flex waypoint"
               data-animation="slide-in-left"
             >
+              <h1 class="welcome__title">Welcome to Our Site!</h1>
 
               <div class="about-video-container">
                 <video muted playsinline loop class="about-video">
-                  <source src="./videos/backround-vid.mp4" type="video/mp4">
+                  <source src="./videos/intro_video.mp4" type="video/mp4">
                 </video>
               </div>
 
-<!--              <img src="images/about/a-lot-of-whiskey-bottles.jpg" class="welcome-img" alt="Avatar image"/>-->
-              <div style="max-width: 1200px">
-                <h1 class="welcome__title">Welcome to Our Site!</h1>
-
+              <div class="section__content">
                 <div class="welcome__section">
                   <h2 class="welcome__subtitle">About Us</h2>
                   <div class="welcome__section-photo-container">
@@ -161,7 +157,7 @@
                   <p class="welcome__paragraph">Join us on this adventure, discover new flavors, and make every sip count. Cheers!</p>
                 </div>
 
-                <div class="welcome__footer"><span>~</span>  Cheers, Angelina and Leo <span>~</span></div>
+                <div class="welcome__footer final-lane"><span>~</span>  Cheers, Angelina and Leo <span>~</span></div>
               </div>
 
             </div>
@@ -430,7 +426,7 @@
           </div>
 
 
-          <div class="recipe__footer text-center line-height-1-5"><span>~</span>Enjoy your smoked whiskey adventures with Angelina and Leo's Cocktail Smoker Kit!<span>~</span></div>
+          <div class="recipe__footer text-center line-height-1-5 final-lane"><span>~</span>Enjoy your smoked whiskey adventures with Angelina and Leo's Cocktail Smoker Kit!<span>~</span></div>
 
         </div>
       </section>
