@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YL6HZJ7T13"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-YL6HZJ7T13');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-YL6HZJ7T13');
     </script>
     <title>Leo`s will</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
     />
 
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/custom.css" />
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v6.5.2/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v6.5.2/css/all.css"
+            integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+            crossorigin="anonymous"
     />
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -35,753 +39,1484 @@
     <script src="scripts/pt.min.js"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/modal.js"></script>
-  </head>
-  <body data-new-gr-c-s-check-loaded="14.981.0">
-    <div class="overflow-wrap">
-      <!-- HOME -->
-      <div class="modal-wrap flex">
+</head>
+<body data-new-gr-c-s-check-loaded="14.981.0">
+<div class="overflow-wrap">
+    <!-- HOME -->
+    <div class="modal-wrap flex">
         <div class="mask"></div>
         <div class="modal" id="modal" style="max-width: 700px">
-          <div class="carousel-wrap" style="width: 700px">
-            <div class="window">
-              <div id="carousel" style="left: -700px">
-                <div class="slide" style="width: 700px"></div>
-                <div class="slide" style="width: 700px"></div>
-                <div class="slide" style="width: 700px"></div>
-              </div>
-              <i class="mdi mdi-chevron-left" id="prev">
-                <i class="fas fa-chevron-left"></i>
-              </i>
-              <i class="mdi mdi-chevron-right" id="next"
-                ><i class="fas fa-chevron-right"></i
-              ></i>
+            <div class="carousel-wrap" style="width: 700px">
+                <div class="window">
+                    <div id="carousel" style="left: -700px">
+                        <div class="slide" style="width: 700px"></div>
+                        <div class="slide" style="width: 700px"></div>
+                        <div class="slide" style="width: 700px"></div>
+                    </div>
+                    <i class="mdi mdi-chevron-left" id="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </i>
+                    <i class="mdi mdi-chevron-right" id="next"
+                    ><i class="fas fa-chevron-right"></i
+                    ></i>
+                </div>
             </div>
-          </div>
-          <div class="info-box">
-            <div class="title"></div>
-            <div class="tag"></div>
-            <div class="detail"></div>
-            <a href="#" target="_blank"
-              ><div class="button">
-                <i class="mdi mdi-open-in-new"><i class="fas fa-external-link-alt"></i>
+            <div class="info-box">
+                <div class="title"></div>
+                <div class="tag"></div>
+                <div class="detail"></div>
+                <a href="#" target="_blank"
+                >
+                    <div class="button">
+                        <i class="mdi mdi-open-in-new"><i class="fas fa-external-link-alt"></i>
 
-              </i>VIEW SITE
-              </div></a
-            >
-          </div>
-          <i class="close mdi mdi-close">
-            <i class="close fas fa-times"></i>
-          </i>
+                        </i>VIEW SITE
+                    </div>
+                </a
+                >
+            </div>
+            <i class="close mdi mdi-close">
+                <i class="close fas fa-times"></i>
+            </i>
         </div>
-      </div>
+    </div>
 
-      <section id="home" class="flex height-fix">
+    <section id="home" class="flex height-fix">
         <div id="pt" class="canvas">
-          <canvas
-            id="canvas"
-            style="width: 1920px; height: 100%"
-          ></canvas>
+            <canvas
+                    id="canvas"
+                    style="width: 1920px; height: 100%"
+            ></canvas>
         </div>
 
         <div class="flex">
-          <div class="text">
-            Elevate Your Cocktail Experience with
-             <br />
-             <span class="highlight">Leo’s Will: </span>
-             <br />
-            The Ultimate Smoker for Perfect
-            <br />
-            Old-Fashioned Cocktails.
-          </div>
-
-          <div class="button page-link first-btn" dest="about">
-            Lets Get Started
-            <i id="arrow-in-btn" class="mdi fas fa-arrow-right"></i>
-          </div>
-
-          <nav class="flex desk">
-            <div class="link-wrap">
-              <div class="active page-link" dest="home">Home</div>
-              <div class="page-link" dest="about">Smoke Sip Enjoy</div>
-              <div class="page-link" dest="portfolio">recipes</div>
-              <div class="page-link" dest="blog">instructions</div>
-              <div class="page-link" dest="tips">tips</div>
-<!--              <div class="page-link" dest="contact">contact</div>-->
+            <div class="text">
+                Elevate Your Cocktail Experience with
+                <br/>
+                <span class="highlight">Leo’s Will: </span>
+                <br/>
+                The Ultimate Smoker for Perfect
+                <br/>
+                Old-Fashioned Cocktails.
             </div>
-            <i class="fa fa-bars" aria-hidden="true"></i>
 
-          </nav>
+            <div class="button page-link first-btn" dest="about">
+                Lets Get Started
+                <i id="arrow-in-btn" class="mdi fas fa-arrow-right"></i>
+            </div>
+
+            <nav class="flex desk">
+                <div class="link-wrap">
+                    <div class="active page-link" dest="home">Home</div>
+                    <div class="page-link" dest="about">Smoke Sip Enjoy</div>
+                    <div class="page-link" dest="portfolio">recipes</div>
+                    <div class="page-link" dest="blog">instructions</div>
+                    <div class="page-link" dest="tips">tips</div>
+                    <!--              <div class="page-link" dest="contact">contact</div>-->
+                </div>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+
+            </nav>
         </div>
-      </section>
+    </section>
 
-      <!-- ABOUT -->
-      <section id="about">
+    <!-- ABOUT -->
+    <section id="about">
         <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">
-            Smoke | Sip | Enjoy
-          </div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-            style="animation-delay: 0.5s"
-          ></div>
-
-          <div class="skills-wrapper flex row-gt-sm welcome-container">
-            <div
-              class="flex waypoint"
-              data-animation="slide-in-left"
-            >
-              <h1 class="welcome__title">Welcome to Our Site!</h1>
-
-              <div class="about-video-container">
-                <video muted playsinline loop class="about-video">
-                  <source src="./videos/intro_video.mp4" type="video/mp4">
-                </video>
-              </div>
-
-              <div class="section__content">
-                <div class="welcome__section">
-                  <h2 class="welcome__subtitle">About Us</h2>
-                  <div class="welcome__section-photo-container">
-                    <img src="./images/about/angel_leo.jpg" alt="Family photo">
-                    <img src="./images/about/about_us_text.jpg" alt="About us">
-                  </div>
-                </div>
-
-                <div class="welcome__section">
-                  <h2 class="welcome__subtitle">Our Product</h2>
-                  <p class="welcome__paragraph">To achieve this, we developed our own <span class="welcome__highlight">Cocktail Smoker Kit</span> and carefully selected the perfect wood chips to enhance the flavor of our whiskey. This meticulous process adds a unique depth and character to every sip, transforming an already great drink into something truly remarkable.</p>
-                  <p class="welcome__paragraph">Our smoked whiskey is crafted with the finest ingredients and a meticulous smoking process that adds a unique depth and character to every sip. We believe that everyone deserves to enjoy a truly remarkable drink, one that turns an ordinary moment into something unforgettable.</p>
-                </div>
-
-                <div class="welcome__section">
-                  <h2 class="welcome__subtitle">Our Philosophy</h2>
-                  <p class="welcome__paragraph">At our core, we’re all about bringing people together and celebrating life’s little joys. We know how important it is to take a break and enjoy the good things in life. Our whiskey isn’t just about the drink itself, but about the moments it helps create.</p>
-                  <p class="welcome__paragraph">When you enjoy our smoked whiskey, you’re joining us in our passion, and we hope it brings a bit of that same joy and relaxation into your life. Whether you’re a whiskey aficionado or just looking for something new, we’re here to offer you a drink that’s crafted with care and meant to be savored.</p>
-                </div>
-
-                <div class="welcome__section">
-                  <h2 class="welcome__subtitle">Join Us</h2>
-                  <p class="welcome__paragraph">Join us on this adventure, discover new flavors, and make every sip count. Cheers!</p>
-                </div>
-
-                <div class="welcome__footer final-lane"><span>~</span>  Cheers, Angelina and Leo <span>~</span></div>
-              </div>
-
+            <div class="header waypoint" data-animation="slide-in-left">
+                Smoke | Sip | Enjoy
             </div>
-          </div>
+            <div
+                    class="header-bar waypoint"
+                    data-animation="slide-in-left"
+                    data-delay=".5s"
+                    style="animation-delay: 0.5s"
+            ></div>
+
+            <div class="skills-wrapper flex row-gt-sm welcome-container">
+                <div
+                        class="flex waypoint"
+                        data-animation="slide-in-left"
+                >
+                    <h1 class="welcome__title">Welcome to Our Site!</h1>
+
+                    <div class="about-video-container">
+                        <video muted playsinline loop class="about-video">
+                            <source src="./videos/intro_video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="section__content">
+                        <div class="welcome__section">
+                            <h2 class="welcome__subtitle">About Us</h2>
+                            <div class="welcome__section-photo-container">
+                                <img src="./images/about/angel_leo.jpg" alt="Family photo">
+                                <img src="./images/about/about_us_text.jpg" alt="About us">
+                            </div>
+                        </div>
+
+                        <div class="welcome__section">
+                            <h2 class="welcome__subtitle">Our Product</h2>
+                            <p class="welcome__paragraph">To achieve this, we developed our own <span
+                                    class="welcome__highlight">Cocktail Smoker Kit</span> and carefully selected the
+                                                          perfect wood chips to enhance the flavor of our whiskey. This
+                                                          meticulous process adds a unique depth and character to every
+                                                          sip, transforming an already great drink into something truly
+                                                          remarkable.</p>
+                            <p class="welcome__paragraph">Our smoked whiskey is crafted with the finest ingredients and
+                                                          a meticulous smoking process that adds a unique depth and
+                                                          character to every sip. We believe that everyone deserves to
+                                                          enjoy a truly remarkable drink, one that turns an ordinary
+                                                          moment into something unforgettable.</p>
+                        </div>
+
+                        <div class="welcome__section">
+                            <h2 class="welcome__subtitle">Our Philosophy</h2>
+                            <p class="welcome__paragraph">At our core, we’re all about bringing people together and
+                                                          celebrating life’s little joys. We know how important it is to
+                                                          take a break and enjoy the good things in life. Our whiskey
+                                                          isn’t just about the drink itself, but about the moments it
+                                                          helps create.</p>
+                            <p class="welcome__paragraph">When you enjoy our smoked whiskey, you’re joining us in our
+                                                          passion, and we hope it brings a bit of that same joy and
+                                                          relaxation into your life. Whether you’re a whiskey aficionado
+                                                          or just looking for something new, we’re here to offer you a
+                                                          drink that’s crafted with care and meant to be savored.</p>
+                        </div>
+
+                        <div class="welcome__section">
+                            <h2 class="welcome__subtitle">Join Us</h2>
+                            <p class="welcome__paragraph">Join us on this adventure, discover new flavors, and make
+                                                          every sip count. Cheers!</p>
+                        </div>
+
+                        <div class="welcome__footer final-lane"><span>~</span> Cheers, Angelina and Leo <span>~</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <!-- PORTFOLIO AKA RECEPIES -->
-      <section id="portfolio">
+    <!-- PORTFOLIO AKA RECEPIES -->
+    <section id="portfolio">
         <div class="container flex recipes-container">
-          <div class="header waypoint" data-animation="slide-in-right">
-            Instructions for Enjoying Your Drink with the Cocktail Smoker Kit
-          </div>
+            <div class="header waypoint" data-animation="slide-in-right">
+                Instructions for Enjoying Your Drink with the Cocktail Smoker Kit
+            </div>
 
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-right"
-            data-delay=".3s"
-            style="animation-delay: 0.3s"
+            <div
+                    class="header-bar waypoint"
+                    data-animation="slide-in-right"
+                    data-delay=".3s"
+                    style="animation-delay: 0.3s"
             ></div>
             <img src="images/recepies/different_glasses.jpg" alt="Image of the smoker kit" class="recipes-img"/>
 
 
-          <div class="recipe__season">
-            <h2 class="recipe__season-title text-center">Spring: Cherry Blossom Old Fashioned</h2>
-            <p class="recipe__paragraph"><strong>Spring is all about renewal and fresh beginnings.</strong> The Cherry Blossom Old Fashioned captures the light and floral notes of the season, perfect for enjoying the blossoming beauty around you.</p>
+            <div class="recipe__season">
+                <h2 class="recipe__season-title text-center">Spring: Cherry Blossom Old Fashioned</h2>
+                <p class="recipe__paragraph"><strong>Spring is all about renewal and fresh beginnings.</strong> The
+                                                                                                                Cherry
+                                                                                                                Blossom
+                                                                                                                Old
+                                                                                                                Fashioned
+                                                                                                                captures
+                                                                                                                the
+                                                                                                                light
+                                                                                                                and
+                                                                                                                floral
+                                                                                                                notes of
+                                                                                                                the
+                                                                                                                season,
+                                                                                                                perfect
+                                                                                                                for
+                                                                                                                enjoying
+                                                                                                                the
+                                                                                                                blossoming
+                                                                                                                beauty
+                                                                                                                around
+                                                                                                                you.</p>
 
-            <h3 class="recipe__subtitle">Ingredients:</h3>
-            <ul class="recipe__ingredient-list">
-              <li>2 oz bourbon or rye whiskey (recommended: Buffalo Trace Bourbon or Bulleit Rye)</li>
-              <li>1 sugar cube</li>
-              <li>2 dashes Angostura bitters</li>
-              <li>1 bar spoon of cherry syrup</li>
-              <li>Orange twist</li>
-              <li>Metal whiskey stones</li>
-              <li>Cherry wood chips (using the provided wood chip tongs)</li>
-            </ul>
+                <h3 class="recipe__subtitle">Ingredients:</h3>
+                <ul class="recipe__ingredient-list">
+                    <li>2 oz bourbon or rye whiskey (recommended: Buffalo Trace Bourbon or Bulleit Rye)</li>
+                    <li>1 sugar cube</li>
+                    <li>2 dashes Angostura bitters</li>
+                    <li>1 bar spoon of cherry syrup</li>
+                    <li>Orange twist</li>
+                    <li>Metal whiskey stones</li>
+                    <li>Cherry wood chips (using the provided wood chip tongs)</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Instructions:</h3>
-            <h4 class="recipe__instruction-title">1. Preparation:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">Muddle the sugar cube with the bitters and cherry syrup in a mixing glass until the sugar is dissolved.</li>
-              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-            </ul>
+                <h3 class="recipe__subtitle">Instructions:</h3>
+                <h4 class="recipe__instruction-title">1. Preparation:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">Muddle the sugar cube with the bitters and cherry syrup in a mixing
+                                                  glass until the sugar is dissolved.
+                    </li>
+                    <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker
+                                                                                                      on an empty glass
+                                                                                                      and attach the
+                                                                                                      metal filter
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a
+                                                                                                    thin layer of cherry
+                                                                                                    wood chips just
+                                                                                                    enough to cover the
+                                                                                                    bottom of the smoker
+                                                                                                    chamber.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                               90-degree angle and light
+                                                                                               the wood chips for 5-7
+                                                                                               seconds until they start
+                                                                                               to char and produce
+                                                                                               smoke.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                    smoker lid for 1-2
+                                                                                                    minutes to infuse
+                                                                                                    smoke flavor.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                         remove the
+                                                                                                         smoker,
+                                                                                                         avoiding
+                                                                                                         contact with
+                                                                                                         the hot metal
+                                                                                                         filter.
+                    </li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-              <li class="recipe__list-item">Garnish with an orange twist.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into
+                                                  the smoked glass
+                    </li>
+                    <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                    <li class="recipe__list-item">Garnish with an orange twist.</li>
+                </ul>
 
-            <div class="recipe__alternative">
-              <h3>Smoking the Whiskey (Alternative):</h3>
-              <ul class="recipe__list">
-                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-                <li class="recipe__list-item">Garnish with an orange twist</li>
-              </ul>
+                <div class="recipe__alternative">
+                    <h3>Smoking the Whiskey (Alternative):</h3>
+                    <ul class="recipe__list">
+                        <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for
+                                                      smoking.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the
+                                                                                                          smoker on top
+                                                                                                          of the glass
+                                                                                                          and attach the
+                                                                                                          metal filter.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to
+                                                                                                        place a thin
+                                                                                                        layer of cherry
+                                                                                                        wood chips just
+                                                                                                        enough to cover
+                                                                                                        the bottom of
+                                                                                                        the smoker
+                                                                                                        chamber.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                                   90-degree angle and
+                                                                                                   light the wood chips
+                                                                                                   for 5-7 seconds until
+                                                                                                   they start to char
+                                                                                                   and produce smoke.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                        smoker lid for
+                                                                                                        1-2 minutes to
+                                                                                                        infuse smoke
+                                                                                                        flavor.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                             remove the
+                                                                                                             smoker,
+                                                                                                             avoiding
+                                                                                                             contact
+                                                                                                             with the
+                                                                                                             hot metal
+                                                                                                             filter.
+                        </li>
+                        <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                        <li class="recipe__list-item">Garnish with an orange twist</li>
+                    </ul>
+                </div>
+
+                <h3>Preferred Whiskey:</h3>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Buffalo Trace Bourbon:</span>A
+                                                                                                               well-rounded
+                                                                                                               bourbon
+                                                                                                               with rich
+                                                                                                               caramel
+                                                                                                               and
+                                                                                                               vanilla
+                                                                                                               notes,
+                                                                                                               perfect
+                                                                                                               for an
+                                                                                                               Old
+                                                                                                               Fashioned.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Known for its
+                                                                                                     spiciness and
+                                                                                                     complexity, it adds
+                                                                                                     a unique depth to
+                                                                                                     the cocktail.
+                    </li>
+                    <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+                </ul>
             </div>
 
-            <h3>Preferred Whiskey:</h3>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Buffalo Trace Bourbon:</span>A well-rounded bourbon with rich caramel and vanilla notes, perfect for an Old Fashioned.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Known for its spiciness and complexity, it adds a unique depth to the cocktail.</li>
-              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-            </ul>
-          </div>
+            <div class="recipe__season">
+                <h2 class="recipe__season-title text-center">Summer: Applewood Smoked Whiskey Smash</h2>
+                <p class="recipe__paragraph"><strong>Summer brings warmth and long, sunny days</strong>The Applewood
+                                                                                                       Smoked Whiskey
+                                                                                                       Smash is a
+                                                                                                       refreshing
+                                                                                                       cocktail with a
+                                                                                                       burst of fresh
+                                                                                                       mint and lemon,
+                                                                                                       perfect for
+                                                                                                       cooling off.</p>
 
-          <div class="recipe__season">
-            <h2 class="recipe__season-title text-center">Summer: Applewood Smoked Whiskey Smash</h2>
-            <p class="recipe__paragraph"><strong>Summer brings warmth and long, sunny days</strong>The Applewood Smoked Whiskey Smash is a refreshing cocktail with a burst of fresh mint and lemon, perfect for cooling off.</p>
+                <h3 class="recipe__subtitle">Ingredients:</h3>
+                <ul class="recipe__ingredient-list">
+                    <li>2 oz bourbon (recommended: Maker's Mark) or rye whiskey (recommended: Bulleit Rye)</li>
+                    <li>1/2 oz simple syrup</li>
+                    <li>1/2 oz fresh lemon juice</li>
+                    <li>4-5 fresh mint leaves</li>
+                    <li>Lemon wheel for garnish</li>
+                    <li>Metal whiskey stones</li>
+                    <li>Apple wood chips (using the provided wood chip tongs)</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Ingredients:</h3>
-            <ul class="recipe__ingredient-list">
-              <li>2 oz bourbon (recommended: Maker's Mark) or rye whiskey (recommended: Bulleit Rye)</li>
-              <li>1/2 oz simple syrup</li>
-              <li>1/2 oz fresh lemon juice</li>
-              <li>4-5 fresh mint leaves</li>
-              <li>Lemon wheel for garnish</li>
-              <li>Metal whiskey stones</li>
-              <li>Apple wood chips (using the provided wood chip tongs)</li>
-            </ul>
+                <h3 class="recipe__subtitle">Instructions:</h3>
+                <h4 class="recipe__instruction-title">1. Preparation:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">In a mixing glass, muddle the mint leaves with simple syrup and lemon
+                                                  juice.
+                    </li>
+                    <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Instructions:</h3>
-            <h4 class="recipe__instruction-title">1. Preparation:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">In a mixing glass, muddle the mint leaves with simple syrup and lemon juice.</li>
-              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker
+                                                                                                      on an empty glass
+                                                                                                      and attach the
+                                                                                                      metal filter
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a
+                                                                                                    thin layer of apple
+                                                                                                    wood chips just
+                                                                                                    enough to cover the
+                                                                                                    bottom of the smoker
+                                                                                                    chamber
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                               90-degree angle and light
+                                                                                               the wood chips for 5-7
+                                                                                               seconds until they start
+                                                                                               to char and produce
+                                                                                               smoke.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                    smoker lid for 1-2
+                                                                                                    minutes to infuse
+                                                                                                    smoke flavor.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                         remove the
+                                                                                                         smoker,
+                                                                                                         avoiding
+                                                                                                         contact with
+                                                                                                         the hot metal
+                                                                                                         filter.
+                    </li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into
+                                                  the smoked glass
+                    </li>
+                    <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                    <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-              <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
-            </ul>
+                <div class="recipe__alternative">
+                    <h3>Smoking the Whiskey (Alternative):</h3>
+                    <ul class="recipe__list">
+                        <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for
+                                                      smoking.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the
+                                                                                                          smoker on top
+                                                                                                          of the glass
+                                                                                                          and attach the
+                                                                                                          metal filter.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to
+                                                                                                        place a thin
+                                                                                                        layer of apple
+                                                                                                        wood chips just
+                                                                                                        enough to cover
+                                                                                                        the bottom of
+                                                                                                        the smoker
+                                                                                                        chamber.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                                   90-degree angle and
+                                                                                                   light the wood chips
+                                                                                                   for 5-7 seconds until
+                                                                                                   they start to char
+                                                                                                   and produce smoke.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                        smoker lid for
+                                                                                                        1-2 minutes to
+                                                                                                        infuse smoke
+                                                                                                        flavor.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                             remove the
+                                                                                                             smoker,
+                                                                                                             avoiding
+                                                                                                             contact
+                                                                                                             with the
+                                                                                                             hot metal
+                                                                                                             filter.
+                        </li>
+                        <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                        <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
+                    </ul>
+                </div>
 
-            <div class="recipe__alternative">
-              <h3>Smoking the Whiskey (Alternative):</h3>
-              <ul class="recipe__list">
-                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-                <li class="recipe__list-item">Garnish with a lemon wheel and a sprig of mint.</li>
-              </ul>
+                <h3>Preferred Whiskey:</h3>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Maker's Mark Bourbon:</span>Known for
+                                                                                                              its smooth
+                                                                                                              and rich
+                                                                                                              flavor, it
+                                                                                                              complements
+                                                                                                              the
+                                                                                                              freshness
+                                                                                                              of the
+                                                                                                              mint and
+                                                                                                              lemon.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Adds a spiciness
+                                                                                                     that pairs well
+                                                                                                     with the citrus and
+                                                                                                     mint.
+                    </li>
+                    <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+                </ul>
             </div>
 
-            <h3>Preferred Whiskey:</h3>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Maker's Mark Bourbon:</span>Known for its smooth and rich flavor, it complements the freshness of the mint and lemon.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Adds a spiciness that pairs well with the citrus and mint.</li>
-              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-            </ul>
-          </div>
+            <div class="recipe__season">
+                <h2 class="recipe__season-title text-center">Fall: Hickory Smoked Maple Manhattan</h2>
+                <p class="recipe__paragraph"><strong>Fall is a season of rich colors and cozy flavors</strong>The
+                                                                                                              Hickory
+                                                                                                              Smoked
+                                                                                                              Maple
+                                                                                                              Manhattan
+                                                                                                              combines
+                                                                                                              the warmth
+                                                                                                              of whiskey
+                                                                                                              with the
+                                                                                                              sweetness
+                                                                                                              of maple
+                                                                                                              syrup,
+                                                                                                              perfect
+                                                                                                              for cool
+                                                                                                              autumn
+                                                                                                              evenings.
+                </p>
 
-          <div class="recipe__season">
-            <h2 class="recipe__season-title text-center">Fall: Hickory Smoked Maple Manhattan</h2>
-            <p class="recipe__paragraph"><strong>Fall is a season of rich colors and cozy flavors</strong>The Hickory Smoked Maple Manhattan combines the warmth of whiskey with the sweetness of maple syrup, perfect for cool autumn evenings.</p>
+                <h3 class="recipe__subtitle">Ingredients:</h3>
+                <ul class="recipe__ingredient-list">
+                    <li>2 oz rye whiskey (recommended: Bulleit Rye or Woodford Reserve Rye)</li>
+                    <li>1 oz sweet vermouth</li>
+                    <li>1/4 oz pure maple syrup</li>
+                    <li>2 dashes Angostura bitters</li>
+                    <li>Maraschino cherry for garnish</li>
+                    <li>Metal whiskey stones</li>
+                    <li>Hickory wood chips (using the provided wood chip tongs)</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Ingredients:</h3>
-            <ul class="recipe__ingredient-list">
-              <li>2 oz rye whiskey (recommended: Bulleit Rye or Woodford Reserve Rye)</li>
-              <li>1 oz sweet vermouth</li>
-              <li>1/4 oz pure maple syrup</li>
-              <li>2 dashes Angostura bitters</li>
-              <li>Maraschino cherry for garnish</li>
-              <li>Metal whiskey stones</li>
-              <li>Hickory wood chips (using the provided wood chip tongs)</li>
-            </ul>
+                <h3 class="recipe__subtitle">Instructions:</h3>
+                <h4 class="recipe__instruction-title">1. Preparation:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">In a mixing glass, combine the sweet vermouth, maple syrup, and
+                                                  bitters until well mixed.
+                    </li>
+                    <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Instructions:</h3>
-            <h4 class="recipe__instruction-title">1. Preparation:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">In a mixing glass, combine the sweet vermouth, maple syrup, and bitters until well mixed.</li>
-              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker
+                                                                                                      on an empty glass
+                                                                                                      and attach the
+                                                                                                      metal filter
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a
+                                                                                                    thin layer of
+                                                                                                    hickory wood chips
+                                                                                                    just enough to cover
+                                                                                                    the bottom of the
+                                                                                                    smoker chamber.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                               90-degree angle and light
+                                                                                               the wood chips for 5-7
+                                                                                               seconds until they start
+                                                                                               to char and produce
+                                                                                               smoke.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                    smoker lid for 1-2
+                                                                                                    minutes to infuse
+                                                                                                    smoke flavor.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                         remove the
+                                                                                                         smoker,
+                                                                                                         avoiding
+                                                                                                         contact with
+                                                                                                         the hot metal
+                                                                                                         filter.
+                    </li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into
+                                                  the smoked glass
+                    </li>
+                    <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                    <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-              <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
-            </ul>
+                <div class="recipe__alternative">
+                    <h3>Smoking the Whiskey (Alternative):</h3>
+                    <ul class="recipe__list">
+                        <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for
+                                                      smoking.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the
+                                                                                                          smoker on top
+                                                                                                          of the glass
+                                                                                                          and attach the
+                                                                                                          metal filter.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to
+                                                                                                        place a thin
+                                                                                                        layer of hickory
+                                                                                                        wood chips just
+                                                                                                        enough to cover
+                                                                                                        the bottom of
+                                                                                                        the smoker
+                                                                                                        chamber.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                                   90-degree angle and
+                                                                                                   light the wood chips
+                                                                                                   for 5-7 seconds until
+                                                                                                   they start to char
+                                                                                                   and produce smoke.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                        smoker lid for
+                                                                                                        1-2 minutes to
+                                                                                                        infuse smoke
+                                                                                                        flavor.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                             remove the
+                                                                                                             smoker,
+                                                                                                             avoiding
+                                                                                                             contact
+                                                                                                             with the
+                                                                                                             hot metal
+                                                                                                             filter.
+                        </li>
+                        <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                        <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
+                    </ul>
+                </div>
 
-            <div class="recipe__alternative">
-              <h3>Smoking the Whiskey (Alternative):</h3>
-              <ul class="recipe__list">
-                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-                <li class="recipe__list-item">Garnish with a maraschino cherry.</li>
-              </ul>
+                <h3>Preferred Whiskey:</h3>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Its spiciness
+                                                                                                     complements the
+                                                                                                     sweetness of the
+                                                                                                     maple syrup and the
+                                                                                                     richness of the
+                                                                                                     vermouth.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Woodford Reserve Rye:</span>Offers a
+                                                                                                              balanced
+                                                                                                              flavor
+                                                                                                              profile
+                                                                                                              with notes
+                                                                                                              of fruit
+                                                                                                              and spice,
+                                                                                                              enhancing
+                                                                                                              the
+                                                                                                              autumnal
+                                                                                                              feel of
+                                                                                                              the
+                                                                                                              cocktail.
+                    </li>
+                    <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+                </ul>
             </div>
 
-            <h3>Preferred Whiskey:</h3>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Bulleit Rye:</span>Its spiciness complements the sweetness of the maple syrup and the richness of the vermouth.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Woodford Reserve Rye:</span>Offers a balanced flavor profile with notes of fruit and spice, enhancing the autumnal feel of the cocktail.</li>
-              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-            </ul>
-          </div>
+            <div class="recipe__season">
+                <h2 class="recipe__season-title text-center">Winter: Oak Smoked Spiced Hot Toddy</h2>
+                <p class="recipe__paragraph"><strong>Winter calls for warm, spiced flavors to brighten the cold
+                                                     days.</strong>The Oak Smoked Spiced Hot Toddy is a cozy drink that
+                                                                   brings the festive spirit to life, perfect for
+                                                                   sipping by the fire.</p>
 
-          <div class="recipe__season">
-            <h2 class="recipe__season-title text-center">Winter: Oak Smoked Spiced Hot Toddy</h2>
-            <p class="recipe__paragraph"><strong>Winter calls for warm, spiced flavors to brighten the cold days.</strong>The Oak Smoked Spiced Hot Toddy is a cozy drink that brings the festive spirit to life, perfect for sipping by the fire.</p>
+                <h3 class="recipe__subtitle">Ingredients:</h3>
+                <ul class="recipe__ingredient-list">
+                    <li>2 oz bourbon (recommended: Elijah Craig Small Batch) or rye whiskey (recommended: Rittenhouse
+                        Rye)
+                    </li>
+                    <li>1 tbsp honey</li>
+                    <li>1/2 oz fresh lemon juice</li>
+                    <li>1 cinnamon stick</li>
+                    <li>3 cloves</li>
+                    <li>1 star anise</li>
+                    <li>Hot water</li>
+                    <li>Metal whiskey stones (optional for chilling the glass before adding hot water)</li>
+                    <li>Oak wood chips (using the provided wood chip tongs)</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Ingredients:</h3>
-            <ul class="recipe__ingredient-list">
-              <li>2 oz bourbon (recommended: Elijah Craig Small Batch) or rye whiskey (recommended: Rittenhouse Rye)</li>
-              <li>1 tbsp honey</li>
-              <li>1/2 oz fresh lemon juice</li>
-              <li>1 cinnamon stick</li>
-              <li>3 cloves</li>
-              <li>1 star anise</li>
-              <li>Hot water</li>
-              <li>Metal whiskey stones (optional for chilling the glass before adding hot water)</li>
-              <li>Oak wood chips (using the provided wood chip tongs)</li>
-            </ul>
+                <h3 class="recipe__subtitle">Instructions:</h3>
+                <h4 class="recipe__instruction-title">1. Preparation:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">In a mixing glass, combine honey, lemon juice, cinnamon stick, cloves,
+                                                  and star anise.
+                    </li>
+                    <li class="recipe__list-item">Add hot water to dissolve the honey and stir.</li>
+                    <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
+                </ul>
 
-            <h3 class="recipe__subtitle">Instructions:</h3>
-            <h4 class="recipe__instruction-title">1. Preparation:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">In a mixing glass, combine honey, lemon juice, cinnamon stick, cloves, and star anise.</li>
-              <li class="recipe__list-item">Add hot water to dissolve the honey and stir.</li>
-              <li class="recipe__list-item">Add the whiskey and stir to combine.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker
+                                                                                                      on an empty glass
+                                                                                                      and attach the
+                                                                                                      metal filter
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a
+                                                                                                    thin layer of oak
+                                                                                                    wood chips just
+                                                                                                    enough to cover the
+                                                                                                    bottom of the smoker
+                                                                                                    chamber.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                               90-degree angle and light
+                                                                                               the wood chips for 5-7
+                                                                                               seconds until they start
+                                                                                               to char and produce
+                                                                                               smoke.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                    smoker lid for 1-2
+                                                                                                    minutes to infuse
+                                                                                                    smoke flavor.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                         remove the
+                                                                                                         smoker,
+                                                                                                         avoiding
+                                                                                                         contact with
+                                                                                                         the hot metal
+                                                                                                         filter.
+                    </li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">2. Smoking the Glass:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on an empty glass and attach the metal filter</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-            </ul>
+                <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into
+                                                  the smoked glass
+                    </li>
+                    <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                    <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
+                </ul>
 
-            <h4 class="recipe__instruction-title">3. Final Assembly:</h4>
-            <ul class="recipe__list">
-              <li class="recipe__list-item">Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass</li>
-              <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-              <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
-            </ul>
+                <div class="recipe__alternative">
+                    <h3>Smoking the Whiskey (Alternative):</h3>
+                    <ul class="recipe__list">
+                        <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for
+                                                      smoking.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the
+                                                                                                          smoker on top
+                                                                                                          of the glass
+                                                                                                          and attach the
+                                                                                                          metal filter.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to
+                                                                                                        place a thin
+                                                                                                        layer of oak
+                                                                                                        wood chips just
+                                                                                                        enough to cover
+                                                                                                        the bottom of
+                                                                                                        the smoker
+                                                                                                        chamber.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a
+                                                                                                   90-degree angle and
+                                                                                                   light the wood chips
+                                                                                                   for 5-7 seconds until
+                                                                                                   they start to char
+                                                                                                   and produce smoke.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the
+                                                                                                        smoker lid for
+                                                                                                        1-2 minutes to
+                                                                                                        infuse smoke
+                                                                                                        flavor.
+                        </li>
+                        <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully
+                                                                                                             remove the
+                                                                                                             smoker,
+                                                                                                             avoiding
+                                                                                                             contact
+                                                                                                             with the
+                                                                                                             hot metal
+                                                                                                             filter.
+                        </li>
+                        <li class="recipe__list-item">Quickly add the prepared mixture from the mixing glass into the
+                                                      smoked whiskey glass.
+                        </li>
+                        <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
+                        <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
+                    </ul>
+                </div>
 
-            <div class="recipe__alternative">
-              <h3>Smoking the Whiskey (Alternative):</h3>
-              <ul class="recipe__list">
-                <li class="recipe__list-item">Pour the prepared whiskey mixture into a glass suitable for smoking.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoker Setup:</span>Place the smoker on top of the glass and attach the metal filter.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Wood Chips:</span>Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Torch:</span>Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Smoke Time:</span>Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.</li>
-                <li class="recipe__list-item"><span class="recipe__highlight">Handling Safety:</span>Carefully remove the smoker, avoiding contact with the hot metal filter.</li>
-                <li class="recipe__list-item">Quickly add the prepared mixture from the mixing glass into the smoked whiskey glass.</li>
-                <li class="recipe__list-item">Add metal whiskey stones and stir until well mixed.</li>
-                <li class="recipe__list-item">Garnish with a lemon wheel and an additional cinnamon stick.</li>
-              </ul>
+                <h3>Preferred Whiskey:</h3>
+                <ul class="recipe__list">
+                    <li class="recipe__list-item"><span class="recipe__highlight">Elijah Craig Small Batch
+                                                                                  Bourbon:</span>Its rich, full-bodied
+                                                                                                 flavor pairs well with
+                                                                                                 the spices and honey in
+                                                                                                 the hot toddy.
+                    </li>
+                    <li class="recipe__list-item"><span class="recipe__highlight">Rittenhouse Rye:</span>Adds a robust,
+                                                                                                         spicy note that
+                                                                                                         enhances the
+                                                                                                         warmth and
+                                                                                                         depth of the
+                                                                                                         drink.
+                    </li>
+                    <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
+                </ul>
             </div>
 
-            <h3>Preferred Whiskey:</h3>
-            <ul class="recipe__list">
-              <li class="recipe__list-item"><span class="recipe__highlight">Elijah Craig Small Batch Bourbon:</span>Its rich, full-bodied flavor pairs well with the spices and honey in the hot toddy.</li>
-              <li class="recipe__list-item"><span class="recipe__highlight">Rittenhouse Rye:</span>Adds a robust, spicy note that enhances the warmth and depth of the drink.</li>
-              <li class="recipe__list-item">Your favorite bourbon or rye whiskey can also be used.</li>
-            </ul>
-          </div>
 
-
-          <div class="recipe__footer text-center line-height-1-5 final-lane"><span>~</span>Enjoy your smoked whiskey adventures with Angelina and Leo's Cocktail Smoker Kit!<span>~</span></div>
+            <div class="recipe__footer text-center line-height-1-5 final-lane"><span>~</span>Enjoy your smoked whiskey
+                                                                                             adventures with Angelina
+                                                                                             and Leo's Cocktail Smoker
+                                                                                             Kit!<span>~</span></div>
 
         </div>
-      </section>
+    </section>
 
-<!--       BLOG AKA INSTRUCTIONS-->
-      <section id="blog">
-              <div class="container flex guide__container">
-                <div class="header waypoint line-height-1-5" data-animation="slide-in-left">Detailed Instructions for Using a Cocktail Smoker</div>
-                <div
-            class="header-bar waypoint"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-            style="animation-delay: 0.5s"
-          ></div>
-
-                <div class="flex row wrap">
-            <div class="instructions-container">
-              <h1 class="instructions__title line-height-1-5">To ensure a seamless and enjoyable experience with your cocktail smoker, follow these detailed instructions:</h1>
-
-              <img src="images/guide/smoker_instruction.jpg" class="instructions__img" alt="Avatar image"/>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Smoker Setup:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Place the smoker on an empty glass and attach the metal filter securely.</li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Wood Chips:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Use tongs to place a thin layer of wood chips (such as cherry, applewood, hickory, or oak) in the smoker chamber. Do not overfill; a small amount is sufficient to produce the desired smoke.</li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Torch:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">
-                    Hold the torch at a 90-degree angle. Ignite the wood chips by applying the flame directly to the chips for 5-7 seconds until they start to char and produce smoke.
-                    <ul class="instructions__sub-list">
-                      <li class="instructions__sub-item">Ensure to handle the torch safely and avoid direct contact with the wooden parts of the smoker to prevent damage.</li>
-                    </ul>
-                  </li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Smoke Time:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Cover the glass with the smoker lid and let the smoke infuse for 1-2 minutes. The longer you leave it covered, the more intense the smoky flavor will be.</li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Handling Safety:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Carefully remove the smoker, avoiding contact with the hot metal filter to prevent burns.</li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Pour Whiskey:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Immediately pour your prepared whiskey or cocktail into the smoked glass. This step ensures that the smoky flavor integrates well with the drink.</li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Metal Ice Cubes:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Rinse and dry the metal cubes, place them in a velvet pouch, and chill in the refrigerator for 1-2 hours before use. Metal cubes are preferred over ice to avoid dilution of the cocktail.</li>
-                </ol>
-              </div>
-
-              <div class="instructions__section">
-                <h2 class="instructions__section-title">Serving:</h2>
-                <ol class="instructions__list">
-                  <li class="instructions__item">Add the chilled metal cubes directly to the whiskey or cocktail in the smoked glass and enjoy your drink.</li>
-                </ol>
-              </div>
-
-              <div class="tips">
-                <h2 class="tips__title">Additional Tips:</h2>
-                <ul class="tips__list">
-                  <li class="tips__item"><strong>Experiment with Smoking Times:</strong> Start with a shorter infusion time and adjust based on your taste preference for smokiness.</li>
-                  <li class="tips__item"><strong>Types of Wood Chips:</strong> Different woods impart different flavors. Cherry wood chips, for instance, are excellent for a smooth, sweet note, while oak chips provide a robust, rich flavor.</li>
-                  <li class="tips__item"><strong>Cleaning:</strong> Ensure you clean the smoker after each use. Knock loose any wood chips or charring from the screen and wipe the wooden parts with a dry or damp cloth as needed. Use the provided brush to clean the metal filter. Avoid submerging the smoker in water.</li>
-                </ul>
-              </div>
-
-              <p class="instructions__footer">These instructions should help you make the most of your cocktail smoker and create impressive, flavorful drinks. <b>Enjoy your mixology adventure!</b></p>
+    <!--       BLOG AKA INSTRUCTIONS-->
+    <section id="blog">
+        <div class="container flex guide__container">
+            <div class="header waypoint line-height-1-5" data-animation="slide-in-left">Detailed Instructions for Using
+                                                                                        a Cocktail Smoker
             </div>
-          </div>
+            <div
+                    class="header-bar waypoint"
+                    data-animation="slide-in-left"
+                    data-delay=".5s"
+                    style="animation-delay: 0.5s"
+            ></div>
 
-                <div>
-                  <h2 class="guide__title text-underline text-center line-height-1-5">Torch</h2>
+            <div class="flex row wrap">
+                <div class="instructions-container">
+                    <h1 class="instructions__title line-height-1-5">To ensure a seamless and enjoyable experience with
+                                                                    your cocktail smoker, follow these detailed
+                                                                    instructions:</h1>
 
-                  <div class="guide__video-container">
+                    <img src="images/guide/smoker_instruction.jpg" class="instructions__img" alt="Avatar image"/>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Smoker Setup:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Place the smoker on an empty glass and attach the metal
+                                                           filter securely.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Wood Chips:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Use tongs to place a thin layer of wood chips (such as
+                                                           cherry, applewood, hickory, or oak) in the smoker chamber. Do
+                                                           not overfill; a small amount is sufficient to produce the
+                                                           desired smoke.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Torch:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">
+                                Hold the torch at a 90-degree angle. Ignite the wood chips by applying the flame
+                                directly to the chips for 5-7 seconds until they start to char and produce smoke.
+                                <ul class="instructions__sub-list">
+                                    <li class="instructions__sub-item">Ensure to handle the torch safely and avoid
+                                                                       direct contact with the wooden parts of the
+                                                                       smoker to prevent damage.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Smoke Time:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Cover the glass with the smoker lid and let the smoke infuse
+                                                           for 1-2 minutes. The longer you leave it covered, the more
+                                                           intense the smoky flavor will be.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Handling Safety:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Carefully remove the smoker, avoiding contact with the hot
+                                                           metal filter to prevent burns.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Pour Whiskey:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Immediately pour your prepared whiskey or cocktail into the
+                                                           smoked glass. This step ensures that the smoky flavor
+                                                           integrates well with the drink.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Metal Ice Cubes:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Rinse and dry the metal cubes, place them in a velvet pouch,
+                                                           and chill in the refrigerator for 1-2 hours before use. Metal
+                                                           cubes are preferred over ice to avoid dilution of the
+                                                           cocktail.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="instructions__section">
+                        <h2 class="instructions__section-title">Serving:</h2>
+                        <ol class="instructions__list">
+                            <li class="instructions__item">Add the chilled metal cubes directly to the whiskey or
+                                                           cocktail in the smoked glass and enjoy your drink.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="tips">
+                        <h2 class="tips__title">Additional Tips:</h2>
+                        <ul class="tips__list">
+                            <li class="tips__item"><strong>Experiment with Smoking Times:</strong> Start with a shorter
+                                                                                                   infusion time and
+                                                                                                   adjust based on your
+                                                                                                   taste preference for
+                                                                                                   smokiness.
+                            </li>
+                            <li class="tips__item"><strong>Types of Wood Chips:</strong> Different woods impart
+                                                                                         different flavors. Cherry wood
+                                                                                         chips, for instance, are
+                                                                                         excellent for a smooth, sweet
+                                                                                         note, while oak chips provide a
+                                                                                         robust, rich flavor.
+                            </li>
+                            <li class="tips__item"><strong>Cleaning:</strong> Ensure you clean the smoker after each
+                                                                              use. Knock loose any wood chips or
+                                                                              charring from the screen and wipe the
+                                                                              wooden parts with a dry or damp cloth as
+                                                                              needed. Use the provided brush to clean
+                                                                              the metal filter. Avoid submerging the
+                                                                              smoker in water.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="instructions__footer">These instructions should help you make the most of your cocktail
+                                                    smoker and create impressive, flavorful drinks. <b>Enjoy your
+                                                                                                       mixology
+                                                                                                       adventure!</b>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="guide__title text-underline text-center line-height-1-5">Torch</h2>
+
+                <div class="guide__video-container">
                     <video muted playsinline loop>
-                      <source src="./videos/fill_torch.mp4" height="500" type="video/mp4">
+                        <source src="./videos/fill_torch.mp4" height="500" type="video/mp4">
                     </video>
 
                     <div class="text-content">
-                      <h3>Master the Flame: Expert Guide to Refilling Your Torch</h3>
-                      <p>
+                        <h3>Master the Flame: Expert Guide to Refilling Your Torch</h3>
+                        <p>
                         <ol>
-                          <li>Ensure you choose a butane canister with a long nozzle.</li>
-                          <li>Locate the gas filling valve on the torch.</li>
-                          <li>Insert the nozzle of the butane canister into the gas filling valve securely.</li>
-                          <li>Hold the torch upside down and press firmly to fill for no more than 8 seconds.</li>
-                          <li>Ensure the torch is turned on and ready for use.</li>
+                            <li>Ensure you choose a butane canister with a long nozzle.</li>
+                            <li>Locate the gas filling valve on the torch.</li>
+                            <li>Insert the nozzle of the butane canister into the gas filling valve securely.</li>
+                            <li>Hold the torch upside down and press firmly to fill for no more than 8 seconds.</li>
+                            <li>Ensure the torch is turned on and ready for use.</li>
                         </ol>
-                      </p>
+                        </p>
                     </div>
-                  </div>
-                  <h2 class="guide__title text-underline text-center line-height-1-5">Detailed Instructions for Using Metal Whiskey Stones with Gel Inside</h2>
+                </div>
+                <h2 class="guide__title text-underline text-center line-height-1-5">Detailed Instructions for Using
+                                                                                    Metal Whiskey Stones with Gel
+                                                                                    Inside</h2>
 
-                  <div class="guide__section">
+                <div class="guide__section">
                     <h3 class="guide__section-title">Setup and Usage:</h3>
 
                     <h3 class="guide__section-title">1. Preparation:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Rinse the metal whiskey stones with water to remove any residue from storage.</li>
-                      <img class="guide__image" src="images/guide/whiskey_stomes_washing.webp" alt="metal stones with water"/>
-                      <li class="guide__list-item">Dry the stones thoroughly before chilling.</li>
+                        <li class="guide__list-item">Rinse the metal whiskey stones with water to remove any residue
+                                                     from storage.
+                        </li>
+                        <img class="guide__image" src="images/guide/whiskey_stomes_washing.webp"
+                             alt="metal stones with water"/>
+                        <li class="guide__list-item">Dry the stones thoroughly before chilling.</li>
                     </ul>
 
                     <h3 class="guide__section-title">2. Chilling:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Place the clean and dry metal whiskey stones in the velvet pouch provided.</li>
-                      <li class="guide__list-item">Put the pouch in the freezer for at least 2 hours before use. The gel inside the stones will freeze, ensuring they stay cold for a long time.</li>
+                        <li class="guide__list-item">Place the clean and dry metal whiskey stones in the velvet pouch
+                                                     provided.
+                        </li>
+                        <li class="guide__list-item">Put the pouch in the freezer for at least 2 hours before use. The
+                                                     gel inside the stones will freeze, ensuring they stay cold for a
+                                                     long time.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">3. Using the Whiskey Stones:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Once chilled, add 2-3 stones to your glass of whiskey, cocktail, or any preferred beverage.</li>
-                      <img class="guide__image" src="images/guide/stones_with_liquid_smole.webp" alt="metal stones in the glass with smoke"/>
-                      <li class="guide__list-item">Let the stones sit in the drink for a few minutes to chill it without diluting the flavor.</li>
-                      <li class="guide__list-item">Enjoy your perfectly chilled drink!</li>
+                        <li class="guide__list-item">Once chilled, add 2-3 stones to your glass of whiskey, cocktail, or
+                                                     any preferred beverage.
+                        </li>
+                        <img class="guide__image" src="images/guide/stones_with_liquid_smole.webp"
+                             alt="metal stones in the glass with smoke"/>
+                        <li class="guide__list-item">Let the stones sit in the drink for a few minutes to chill it
+                                                     without diluting the flavor.
+                        </li>
+                        <li class="guide__list-item">Enjoy your perfectly chilled drink!</li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="guide__section">
-                    <h2 class="guide__section-title text-underline text-center line-height-1-5">Advantages of Metal Whiskey Stones over Regular Ice Cubes:</h2>
+                <div class="guide__section">
+                    <h2 class="guide__section-title text-underline text-center line-height-1-5">Advantages of Metal
+                                                                                                Whiskey Stones over
+                                                                                                Regular Ice Cubes:</h2>
 
                     <h3 class="guide__section-title">1. Non-Diluting:</h3>
                     <ul class="guide__sub-list">
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Metal whiskey stones do not melt, which means they chill your drink without watering it down. This preserves the original flavor and strength of your beverage.</li>
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> As ice cubes melt, they dilute the drink, altering its taste and reducing its potency.</li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Metal
+                                                                                                             whiskey
+                                                                                                             stones do
+                                                                                                             not melt,
+                                                                                                             which means
+                                                                                                             they chill
+                                                                                                             your drink
+                                                                                                             without
+                                                                                                             watering it
+                                                                                                             down. This
+                                                                                                             preserves
+                                                                                                             the
+                                                                                                             original
+                                                                                                             flavor and
+                                                                                                             strength of
+                                                                                                             your
+                                                                                                             beverage.
+                        </li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> As ice cubes
+                                                                                                          melt, they
+                                                                                                          dilute the
+                                                                                                          drink,
+                                                                                                          altering its
+                                                                                                          taste and
+                                                                                                          reducing its
+                                                                                                          potency.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">2. Long-Lasting Cooling:</h3>
                     <ul class="guide__sub-list">
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The gel inside metal whiskey stones freezes and stays cold for an extended period, providing consistent cooling throughout your drinking experience.</li>
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes can melt relatively quickly, especially in warm environments, reducing their effectiveness over time.</li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The gel
+                                                                                                             inside
+                                                                                                             metal
+                                                                                                             whiskey
+                                                                                                             stones
+                                                                                                             freezes and
+                                                                                                             stays cold
+                                                                                                             for an
+                                                                                                             extended
+                                                                                                             period,
+                                                                                                             providing
+                                                                                                             consistent
+                                                                                                             cooling
+                                                                                                             throughout
+                                                                                                             your
+                                                                                                             drinking
+                                                                                                             experience.
+                        </li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes can
+                                                                                                          melt
+                                                                                                          relatively
+                                                                                                          quickly,
+                                                                                                          especially in
+                                                                                                          warm
+                                                                                                          environments,
+                                                                                                          reducing their
+                                                                                                          effectiveness
+                                                                                                          over time.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">3. Material and Safety:</h3>
                     <ul class="guide__sub-list">
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Made from food-grade stainless steel, metal whiskey stones are safe, durable, and resistant to corrosion. They do not impart any off flavors or odors to the drink.</li>
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes are made from water and can sometimes carry impurities or flavors from the freezer.</li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Made from
+                                                                                                             food-grade
+                                                                                                             stainless
+                                                                                                             steel,
+                                                                                                             metal
+                                                                                                             whiskey
+                                                                                                             stones are
+                                                                                                             safe,
+                                                                                                             durable,
+                                                                                                             and
+                                                                                                             resistant
+                                                                                                             to
+                                                                                                             corrosion.
+                                                                                                             They do not
+                                                                                                             impart any
+                                                                                                             off flavors
+                                                                                                             or odors to
+                                                                                                             the drink.
+                        </li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes are
+                                                                                                          made from
+                                                                                                          water and can
+                                                                                                          sometimes
+                                                                                                          carry
+                                                                                                          impurities or
+                                                                                                          flavors from
+                                                                                                          the freezer.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">4. Reusable:</h3>
                     <ul class="guide__sub-list">
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Metal whiskey stones are reusable. Simply rinse them after use, dry, and place them back in the freezer for the next use.</li>
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes are single-use and need to be replaced for each drink, requiring a constant supply of clean water and freezer space.</li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> Metal
+                                                                                                             whiskey
+                                                                                                             stones are
+                                                                                                             reusable.
+                                                                                                             Simply
+                                                                                                             rinse them
+                                                                                                             after use,
+                                                                                                             dry, and
+                                                                                                             place them
+                                                                                                             back in the
+                                                                                                             freezer for
+                                                                                                             the next
+                                                                                                             use.
+                        </li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes are
+                                                                                                          single-use and
+                                                                                                          need to be
+                                                                                                          replaced for
+                                                                                                          each drink,
+                                                                                                          requiring a
+                                                                                                          constant
+                                                                                                          supply of
+                                                                                                          clean water
+                                                                                                          and freezer
+                                                                                                          space.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">5. Aesthetic Appeal:</h3>
                     <ul class="guide__sub-list">
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The sleek, modern look of stainless steel stones adds a touch of elegance to any drink, making them a perfect addition for entertaining guests or for personal enjoyment.</li>
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Traditional ice cubes are practical but lack the visual appeal of metal whiskey stones.</li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The sleek,
+                                                                                                             modern look
+                                                                                                             of
+                                                                                                             stainless
+                                                                                                             steel
+                                                                                                             stones adds
+                                                                                                             a touch of
+                                                                                                             elegance to
+                                                                                                             any drink,
+                                                                                                             making them
+                                                                                                             a perfect
+                                                                                                             addition
+                                                                                                             for
+                                                                                                             entertaining
+                                                                                                             guests or
+                                                                                                             for
+                                                                                                             personal
+                                                                                                             enjoyment.
+                        </li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Traditional
+                                                                                                          ice cubes are
+                                                                                                          practical but
+                                                                                                          lack the
+                                                                                                          visual appeal
+                                                                                                          of metal
+                                                                                                          whiskey
+                                                                                                          stones.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">6. Enhanced Cooling Efficiency:</h3>
                     <ul class="guide__sub-list">
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The gel core inside the stones enhances their cooling capacity, making them more efficient at chilling beverages compared to regular solid metal stones.</li>
-                      <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes provide effective cooling but melt over time, which can lead to inconsistent temperature control.</li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Metal Stones:</span> The gel
+                                                                                                             core inside
+                                                                                                             the stones
+                                                                                                             enhances
+                                                                                                             their
+                                                                                                             cooling
+                                                                                                             capacity,
+                                                                                                             making them
+                                                                                                             more
+                                                                                                             efficient
+                                                                                                             at chilling
+                                                                                                             beverages
+                                                                                                             compared to
+                                                                                                             regular
+                                                                                                             solid metal
+                                                                                                             stones.
+                        </li>
+                        <li class="guide__sub-list-item"><span class="guide__highlight">Ice Cubes:</span> Ice cubes
+                                                                                                          provide
+                                                                                                          effective
+                                                                                                          cooling but
+                                                                                                          melt over
+                                                                                                          time, which
+                                                                                                          can lead to
+                                                                                                          inconsistent
+                                                                                                          temperature
+                                                                                                          control.
+                        </li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="guide__section">
-                    <h2 class="guide__section-title text-underline text-center line-height-1-5">Versatility: Where and How to Use Metal Whiskey Stones:</h2>
+                <div class="guide__section">
+                    <h2 class="guide__section-title text-underline text-center line-height-1-5">Versatility: Where and
+                                                                                                How to Use Metal Whiskey
+                                                                                                Stones:</h2>
 
                     <h3 class="guide__section-title">1. At Home:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Perfect for chilling whiskey, bourbon, scotch, and other spirits without dilution.</li>
-                      <li class="guide__list-item">Use them in cocktails to maintain the integrity of mixed drinks.</li>
+                        <li class="guide__list-item">Perfect for chilling whiskey, bourbon, scotch, and other spirits
+                                                     without dilution.
+                        </li>
+                        <li class="guide__list-item">Use them in cocktails to maintain the integrity of mixed drinks.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">2. At Parties:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Impress guests with elegant, non-diluting cooling stones in their drinks.</li>
-                      <li class="guide__list-item">Use them in wine and champagne glasses to keep beverages cold without watering them down.</li>
+                        <li class="guide__list-item">Impress guests with elegant, non-diluting cooling stones in their
+                                                     drinks.
+                        </li>
+                        <li class="guide__list-item">Use them in wine and champagne glasses to keep beverages cold
+                                                     without watering them down.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">3. Outdoor Events:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Ideal for picnics and BBQs where ice might melt quickly.</li>
-                      <li class="guide__list-item">Great for camping trips to keep your beverages cold without the hassle of ice.</li>
+                        <li class="guide__list-item">Ideal for picnics and BBQs where ice might melt quickly.</li>
+                        <li class="guide__list-item">Great for camping trips to keep your beverages cold without the
+                                                     hassle of ice.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">4. In the Office:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Keep a set in the office freezer to enjoy a perfectly chilled drink after a long day.</li>
-                      <li class="guide__list-item">Use them to cool non-alcoholic beverages like iced tea, soda, or juice.</li>
+                        <li class="guide__list-item">Keep a set in the office freezer to enjoy a perfectly chilled drink
+                                                     after a long day.
+                        </li>
+                        <li class="guide__list-item">Use them to cool non-alcoholic beverages like iced tea, soda, or
+                                                     juice.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">5. Travel:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Easy to pack and carry for vacations or business trips.</li>
-                      <li class="guide__list-item">Enjoy chilled drinks in your hotel room without relying on hotel ice.</li>
+                        <li class="guide__list-item">Easy to pack and carry for vacations or business trips.</li>
+                        <li class="guide__list-item">Enjoy chilled drinks in your hotel room without relying on hotel
+                                                     ice.
+                        </li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="guide__section">
+                <div class="guide__section">
                     <h2 class="guide__section-title text-underline text-center">Cleaning and Maintenance:</h2>
 
                     <h3 class="guide__section-title">1. Post-Use Cleaning:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">After use, rinse the stones under warm water to remove any beverage residue.</li>
-                      <li class="guide__list-item">Dry them thoroughly with a soft cloth or allow them to air dry.</li>
+                        <li class="guide__list-item">After use, rinse the stones under warm water to remove any beverage
+                                                     residue.
+                        </li>
+                        <li class="guide__list-item">Dry them thoroughly with a soft cloth or allow them to air dry.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">2. Storage:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">Store the clean and dry stones in their velvet pouch. This keeps them free from dust and ready for the next use.</li>
+                        <li class="guide__list-item">Store the clean and dry stones in their velvet pouch. This keeps
+                                                     them free from dust and ready for the next use.
+                        </li>
                     </ul>
 
                     <h3 class="guide__section-title">3. Avoid Submersion in Water:</h3>
                     <ul class="guide__list">
-                      <li class="guide__list-item">While the stones are designed to be durable, avoid submerging them in water for prolonged periods, as this can affect the gel core.</li>
+                        <li class="guide__list-item">While the stones are designed to be durable, avoid submerging them
+                                                     in water for prolonged periods, as this can affect the gel core.
+                        </li>
                     </ul>
-                  </div>
-
-                  <div class="guide__footer">By following these instructions and understanding the benefits, you can maximize your enjoyment of using metal whiskey stones with gel inside. Cheers to a perfectly chilled drink!</div>
                 </div>
-        </div>
-      </section>
 
-      <!-- TIPS -->
-      <section id="tips">
+                <div class="guide__footer">By following these instructions and understanding the benefits, you can
+                                           maximize your enjoyment of using metal whiskey stones with gel inside. Cheers
+                                           to a perfectly chilled drink!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIPS -->
+    <section id="tips">
         <div class="container flex tips__container">
-          <div class="header waypoint text-center text-underline" data-animation="slide-in-left">Tips for Proper Smoking with a Cocktail Smoker: Glass First vs. Whiskey First</div>
-          <div
-                  class="header-bar waypoint"
-                  data-animation="slide-in-left"
-                  data-delay=".5s"
-                  style="animation-delay: 1s"
-          ></div>
+            <div class="header waypoint text-center text-underline" data-animation="slide-in-left">Tips for Proper
+                                                                                                   Smoking with a
+                                                                                                   Cocktail Smoker:
+                                                                                                   Glass First vs.
+                                                                                                   Whiskey First
+            </div>
+            <div
+                    class="header-bar waypoint"
+                    data-animation="slide-in-left"
+                    data-delay=".5s"
+                    style="animation-delay: 1s"
+            ></div>
 
-          <div class="tips__section">
-            <h2 class="tips__section-title text-center">Smoking the Glass First: The Subtle Touch</h2>
-            <p class="tips__paragraph">Imagine your first sip coming with a whisper of smoke, enhancing the aromas and creating a perfect prelude to the flavors of your cocktail. Here’s why you might want to start with the glass:</p>
+            <div class="tips__section">
+                <h2 class="tips__section-title text-center">Smoking the Glass First: The Subtle Touch</h2>
+                <p class="tips__paragraph">Imagine your first sip coming with a whisper of smoke, enhancing the aromas
+                                           and creating a perfect prelude to the flavors of your cocktail. Here’s why
+                                           you might want to start with the glass:</p>
 
-            <h3 class="tips__section-title">Why Smoke the Glass?</h3>
-            <ul class="tips__sub-list">
-              <li class="tips__sub-list-item"><span class="tips__highlight">Balanced Flavor:</span> Smoking the glass gives your drink a gentle smoky flavor. The smoke lingers in the glass and mixes slowly with your cocktail, making sure it doesn’t overpower the drink.</li>
-              <li class="tips__sub-list-item"><span class="tips__highlight">Aromas Galore:</span> When you smoke the glass, the aroma hits you even before you take a sip. This creates an immersive sensory experience, engaging your sense of smell along with taste.</li>
-              <li class="tips__sub-list-item"><span class="tips__highlight">Visual Impact:</span> Watching the smoke swirl around the glass as you pour your drink adds a dramatic, visual appeal that impresses guests and elevates your cocktail presentation.</li>
-            </ul>
+                <h3 class="tips__section-title">Why Smoke the Glass?</h3>
+                <ul class="tips__sub-list">
+                    <li class="tips__sub-list-item"><span class="tips__highlight">Balanced Flavor:</span> Smoking the
+                                                                                                          glass gives
+                                                                                                          your drink a
+                                                                                                          gentle smoky
+                                                                                                          flavor. The
+                                                                                                          smoke lingers
+                                                                                                          in the glass
+                                                                                                          and mixes
+                                                                                                          slowly with
+                                                                                                          your cocktail,
+                                                                                                          making sure it
+                                                                                                          doesn’t
+                                                                                                          overpower the
+                                                                                                          drink.
+                    </li>
+                    <li class="tips__sub-list-item"><span class="tips__highlight">Aromas Galore:</span> When you smoke
+                                                                                                        the glass, the
+                                                                                                        aroma hits you
+                                                                                                        even before you
+                                                                                                        take a sip. This
+                                                                                                        creates an
+                                                                                                        immersive
+                                                                                                        sensory
+                                                                                                        experience,
+                                                                                                        engaging your
+                                                                                                        sense of smell
+                                                                                                        along with
+                                                                                                        taste.
+                    </li>
+                    <li class="tips__sub-list-item"><span class="tips__highlight">Visual Impact:</span> Watching the
+                                                                                                        smoke swirl
+                                                                                                        around the glass
+                                                                                                        as you pour your
+                                                                                                        drink adds a
+                                                                                                        dramatic, visual
+                                                                                                        appeal that
+                                                                                                        impresses guests
+                                                                                                        and elevates
+                                                                                                        your cocktail
+                                                                                                        presentation.
+                    </li>
+                </ul>
 
-            <h3 class="tips__section-title">How to Smoke the Glass:</h3>
-            <ul class="tips__list">
-              <li class="tips__list-item">Set up the smoker on an empty glass.</li>
-              <li class="tips__list-item">Use tongs to place a small amount of wood chips in the smoker chamber.</li>
-              <li class="tips__list-item">Ignite the chips with a torch for 5-7 seconds until they start to smoke.</li>
-              <li class="tips__list-item">Cover the glass with the smoker lid for 1-2 minutes.</li>
-              <li class="tips__list-item">Carefully remove the smoker, avoiding the hot metal parts.</li>
-              <li class="tips__list-item">Pour your prepared cocktail into the smoked glass.</li>
-            </ul>
-          </div>
+                <h3 class="tips__section-title">How to Smoke the Glass:</h3>
+                <ul class="tips__list">
+                    <li class="tips__list-item">Set up the smoker on an empty glass.</li>
+                    <li class="tips__list-item">Use tongs to place a small amount of wood chips in the smoker chamber.
+                    </li>
+                    <li class="tips__list-item">Ignite the chips with a torch for 5-7 seconds until they start to
+                                                smoke.
+                    </li>
+                    <li class="tips__list-item">Cover the glass with the smoker lid for 1-2 minutes.</li>
+                    <li class="tips__list-item">Carefully remove the smoker, avoiding the hot metal parts.</li>
+                    <li class="tips__list-item">Pour your prepared cocktail into the smoked glass.</li>
+                </ul>
+            </div>
 
-          <div class="tips__section">
-            <h2 class="tips__section-title text-center">Smoking the Whiskey First: The Bold Move</h2>
-            <p class="tips__paragraph">For those who love a rich, intense flavor, smoking the whiskey itself is the way to go. This method infuses the drink with a deep, smoky taste that transforms every sip.</p>
+            <div class="tips__section">
+                <h2 class="tips__section-title text-center">Smoking the Whiskey First: The Bold Move</h2>
+                <p class="tips__paragraph">For those who love a rich, intense flavor, smoking the whiskey itself is the
+                                           way to go. This method infuses the drink with a deep, smoky taste that
+                                           transforms every sip.</p>
 
-            <h3 class="tips__section-title">Why Smoke the Whiskey?</h3>
-            <ul class="tips__sub-list">
-              <li class="tips__sub-list-item"><span class="tips__highlight">Intense Flavor:</span> Smoking the whiskey directly results in a stronger, more pronounced smoky flavor. It’s perfect for those who love a bold taste that stands out.</li>
-              <li class="tips__sub-list-item"><span class="tips__highlight">Deeper Infusion:</span> The smoke penetrates the whiskey thoroughly, creating layers of complexity and richness in every sip.</li>
-              <li class="tips__sub-list-item"><span class="tips__highlight">Even Flavor:</span> Smoking the whiskey ensures the smoky flavor is evenly distributed, so each sip is consistent and delicious.</li>
-            </ul>
+                <h3 class="tips__section-title">Why Smoke the Whiskey?</h3>
+                <ul class="tips__sub-list">
+                    <li class="tips__sub-list-item"><span class="tips__highlight">Intense Flavor:</span> Smoking the
+                                                                                                         whiskey
+                                                                                                         directly
+                                                                                                         results in a
+                                                                                                         stronger, more
+                                                                                                         pronounced
+                                                                                                         smoky flavor.
+                                                                                                         It’s perfect
+                                                                                                         for those who
+                                                                                                         love a bold
+                                                                                                         taste that
+                                                                                                         stands out.
+                    </li>
+                    <li class="tips__sub-list-item"><span class="tips__highlight">Deeper Infusion:</span> The smoke
+                                                                                                          penetrates the
+                                                                                                          whiskey
+                                                                                                          thoroughly,
+                                                                                                          creating
+                                                                                                          layers of
+                                                                                                          complexity and
+                                                                                                          richness in
+                                                                                                          every sip.
+                    </li>
+                    <li class="tips__sub-list-item"><span class="tips__highlight">Even Flavor:</span> Smoking the
+                                                                                                      whiskey ensures
+                                                                                                      the smoky flavor
+                                                                                                      is evenly
+                                                                                                      distributed, so
+                                                                                                      each sip is
+                                                                                                      consistent and
+                                                                                                      delicious.
+                    </li>
+                </ul>
 
-            <h3 class="tips__section-title">How to Smoke the Whiskey:</h3>
-            <ul class="tips__list">
-              <li class="tips__list-item">Pour your whiskey or cocktail into a suitable glass.</li>
-              <li class="tips__list-item">Place the smoker on top of the glass.</li>
-              <li class="tips__list-item">Add a small amount of wood chips to the smoker chamber.</li>
-              <li class="tips__list-item">Ignite the chips with a torch for 5-7 seconds until they start to smoke.</li>
-              <li class="tips__list-item">Cover the glass with the smoker lid for 1-2 minutes.</li>
-              <li class="tips__list-item">Carefully remove the smoker, avoiding the hot metal parts.</li>
-              <li class="tips__list-item">Enjoy your richly smoked drink.</li>
-            </ul>
-          </div>
+                <h3 class="tips__section-title">How to Smoke the Whiskey:</h3>
+                <ul class="tips__list">
+                    <li class="tips__list-item">Pour your whiskey or cocktail into a suitable glass.</li>
+                    <li class="tips__list-item">Place the smoker on top of the glass.</li>
+                    <li class="tips__list-item">Add a small amount of wood chips to the smoker chamber.</li>
+                    <li class="tips__list-item">Ignite the chips with a torch for 5-7 seconds until they start to
+                                                smoke.
+                    </li>
+                    <li class="tips__list-item">Cover the glass with the smoker lid for 1-2 minutes.</li>
+                    <li class="tips__list-item">Carefully remove the smoker, avoiding the hot metal parts.</li>
+                    <li class="tips__list-item">Enjoy your richly smoked drink.</li>
+                </ul>
+            </div>
 
-          <div class="tips__conclusion">
-            <p>Whether you prefer the subtle, aromatic allure of smoking the glass or the bold, intense flavor of smoking the whiskey, each method offers a unique way to enjoy your cocktails.</p>
-            <ul class="tips__sub-list">
-              <li class="tips__sub-list-item">Smoke the Glass First for a mild, aromatic experience that enhances the sensory appeal and adds a touch of elegance to your drink.</li>
-              <li class="tips__sub-list-item">Smoke the Whiskey First for a bold, rich flavor that transforms your cocktail into a smoky masterpiece.</li>
-            </ul>
-            <p>Experiment with both methods to discover your favorite. Cheers to creating perfect smoky cocktails that will impress your friends and delight your taste buds!</p>
-          </div>
+            <div class="tips__conclusion">
+                <p>Whether you prefer the subtle, aromatic allure of smoking the glass or the bold, intense flavor of
+                   smoking the whiskey, each method offers a unique way to enjoy your cocktails.</p>
+                <ul class="tips__sub-list">
+                    <li class="tips__sub-list-item">Smoke the Glass First for a mild, aromatic experience that enhances
+                                                    the sensory appeal and adds a touch of elegance to your drink.
+                    </li>
+                    <li class="tips__sub-list-item">Smoke the Whiskey First for a bold, rich flavor that transforms your
+                                                    cocktail into a smoky masterpiece.
+                    </li>
+                </ul>
+                <p>Experiment with both methods to discover your favorite. Cheers to creating perfect smoky cocktails
+                   that will impress your friends and delight your taste buds!</p>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <!-- CONTACT -->
-      <section id="contact">
-      </section>
+    <!-- CONTACT -->
+    <section id="contact">
+    </section>
 
-      <footer>
+    <footer>
         <!-- <i class="mdi mdi-chevron-double-up page-link" dest="home"></i> -->
         <i class="fas fa-chevron-up page-link" dest="home"></i>
 
         <div class="icon-wrap flex row">
-<!--          <a-->
-<!--            href="https://www.facebook.com/people/Lev-Korsunsky/100000993145425"-->
-<!--            target="_blank"-->
-<!--          >-->
-<!--            <div class="flex icon" id="icon-3">-->
-<!--              <i class="fab fa-facebook-square"></i>-->
-<!--            </div>-->
-<!--          </a>-->
-          <a href="https://www.instagram.com/smoked_cocktail?igsh=MWhnajR2N2U1bXFxOA==" target="_blank">
-            <div class="flex icon" id="icon-4">
-              <i class="fab fa-instagram"></i>
-            </div>
-          </a>
-          <a href="https://amzn.to/4fTjK2R" target="_blank">
-            <div class="flex icon" id="icon-4">
-              <i class="fa-brands fa-amazon"></i>
-            </div>
-          </a>
+            <!--          <a-->
+            <!--            href="https://www.facebook.com/people/Lev-Korsunsky/100000993145425"-->
+            <!--            target="_blank"-->
+            <!--          >-->
+            <!--            <div class="flex icon" id="icon-3">-->
+            <!--              <i class="fab fa-facebook-square"></i>-->
+            <!--            </div>-->
+            <!--          </a>-->
+            <a href="https://www.instagram.com/smoked_cocktail?igsh=MWhnajR2N2U1bXFxOA==" target="_blank">
+                <div class="flex icon" id="icon-4">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+            <a href="https://amzn.to/4fTjK2R" target="_blank">
+                <div class="flex icon" id="icon-4">
+                    <i class="fa-brands fa-amazon"></i>
+                </div>
+            </a>
         </div>
         <div class="info-box">
-          <div class="footnote">
-            Leo`s Will <span class="highlight" id="copyright"></span>
-          </div>
+            <div class="footnote">
+                Leo`s Will <span class="highlight" id="copyright"></span>
+            </div>
         </div>
-      </footer>
-    </div>
+    </footer>
+</div>
 
-    <script src="scripts/canvas.js"></script>
-    <script src="scripts/video-trigger.js"></script>
-  </body>
+<script src="scripts/canvas.js"></script>
+<script src="scripts/video-trigger.js"></script>
+</body>
 </html>
