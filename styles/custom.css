@@ -180,8 +180,24 @@ section#portfolio, section#blog, section#tips {
     }
 }
 
+@media (max-width: 1024px) {
+    .section__content {
+        max-width: 768px;
+    }
+}
+
 @media (max-width: 768px) {
     .section__content {
-        max-width: 500px;
+        max-width: 400px;
     }
+}
+
+@media (max-width: 480px) {
+    .section__content {
+        max-width: 300px;
+    }
+}
+
+.final-lane{
+    font-size: 1.5em;
 }
