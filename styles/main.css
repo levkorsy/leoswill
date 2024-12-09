@@ -254,6 +254,7 @@ footer .mdi-chevron-double-up:hover {
     overflow: visible;
     position: initial;
     text-align: left;
+    display: flex;
   }
   nav .link-wrap .visible {
     height: initial;
@@ -1283,6 +1284,15 @@ nav .link-wrap {
   top: 53px;
   transition: height 0.3s ease-out;
   width: 100%;
+
+  .link-wrap__right-group {
+    margin-left: auto;
+    display: flex;
+
+    .page-link{
+      max-width: 20px;
+    }
+  }
 }
 nav .link-wrap.visible {
   height: 220px;
@@ -1297,7 +1307,7 @@ nav .link-wrap div {
 nav .link-wrap div:first-child {
   padding: 25px 20px 12px 20px;
 }
-nav .link-wrap div:hover {
+nav .page-link:hover {
   color: var(--tertiary);
 }
 nav .fa-bars {
