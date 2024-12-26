@@ -1,0 +1,392 @@
+{
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "SMOKE_SIP_ENJOY": "Fumar, Beber, Disfrutar",
+    "RECIPES": "Recetas",
+    "INSTRUCTIONS": "Instrucciones",
+    "TIPS": "Consejos"
+  },
+  "SECTIONS": {
+    "HOME": {
+      "TITLE": "Eleva tu experiencia de cóctel con",
+      "SUBTITLE": "Leo's Will:",
+      "DESCRIPTION": "El ahumador definitivo para <br />Cócteles Old-Fashioned perfectos.",
+      "BUTTON_TITLE": "Comencemos"
+    },
+    "SMOKE_SIP_ENJOY": {
+      "TITLE": "Fumar, Beber, Disfrutar",
+      "DESCRIPTION": "Leo's Will es el ahumador definitivo para cócteles Old-Fashioned perfectos. Eleva tu experiencia de cóctel con Leo's Will.",
+      "ABOUT_US": "Sobre Nosotros",
+      "OUR_PRODUCT": {
+        "TITLE": "Nuestro Producto",
+        "DESCRIPTION_LINE_1": "Para lograr esto, desarrollamos nuestro propio Kit de Ahumador de Cócteles y seleccionamos cuidadosamente las astillas de madera perfectas para mejorar el sabor de nuestro whisky. Este proceso meticuloso agrega una profundidad y carácter únicos a cada sorbo, transformando una bebida ya excelente en algo verdaderamente notable.",
+        "DESCRIPTION_LINE_2": "Nuestro whisky ahumado está elaborado con los mejores ingredientes y un proceso de ahumado meticuloso que agrega una profundidad y carácter únicos a cada sorbo. Creemos que todos merecen disfrutar de una bebida verdaderamente notable, una que convierte un momento ordinario en algo inolvidable."
+      },
+      "OUR_PHILOSOPHY": {
+        "TITLE": "Nuestra Filosofía",
+        "DESCRIPTION_LINE_1": "En el fondo, se trata de reunir a las personas y celebrar las pequeñas alegrías de la vida. Sabemos lo importante que es tomarse un descanso y disfrutar de las cosas buenas de la vida. Nuestro whisky no se trata solo de la bebida en sí, sino de los momentos que ayuda a crear.",
+        "DESCRIPTION_LINE_2": "Cuando disfrutas de nuestro whisky ahumado, te unes a nosotros en nuestra pasión, y esperamos que traiga un poco de esa misma alegría y relajación a tu vida. Ya seas un aficionado al whisky o simplemente estés buscando algo nuevo, estamos aquí para ofrecerte una bebida que está elaborada con cuidado y que está destinada a ser saboreada."
+      },
+      "JOIN_US": {
+        "TITLE": "Únete a Nosotros",
+        "DESCRIPTION_LINE_1": "Únete a nosotros en esta aventura"
+      }
+    },
+    "RECIPES": {
+      "TITLE": "Ahúma las Estaciones: Cócteles con un Toque \uD83C\uDF78\n",
+      "INSTRUCTIONS": "Instrucciones",
+      "INGREDIENTS": "Ingredientes",
+      "PREPARATION": "Preparación",
+      "SMOKING_THE_GLASS": "Ahumar el Vaso",
+      "FINAL_ASSEMBLY": "Ensamblaje Final",
+      "ALTERNATIVE": "Alternativa",
+      "PREFERRED": "Preferido",
+      "PREPARATION_TITLE": "Preparación:",
+      "SMOKING_THE_GLASS_TITLE": "Ahumar el Vaso:",
+      "FINAL_ASSEMBLY_TITLE": "Final Assembly:",
+      "SPRING_CHERRY": {
+        "TITLE": "Primavera: Cherry Blossom Old Fashioned",
+        "DESCRIPTION": "La primavera es sinónimo de renovación y nuevos comienzos. El Cherry Blossom Old Fashioned captura las notas ligeras y florales de la temporada, perfecto para disfrutar la belleza floreciente.",
+        "INGREDIENTS": [
+          "60 ml de bourbon o whisky de centeno (recomendado: Buffalo Trace Bourbon o Bulleit Rye)",
+          "1 cubo de azúcar",
+          "2 gotas de amargo de Angostura",
+          "1 cucharada de jarabe de cereza",
+          "Twist de naranja",
+          "Piedras de metal para whiskey",
+          "Virutas de cerezo (usando las pinzas provistas)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "Machaca el cubo de azúcar con el amargo de Angostura y el jarabe de cereza en un vaso mezclador hasta que el azúcar se disuelva.",
+            "Agrega el whiskey y revuelve para combinar."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Configuración del ahumador: Coloca el ahumador en un vaso vacío y ajusta el filtro de metal.",
+            "Virutas de madera: Usa pinzas para colocar una capa fina de virutas de cerezo, cubriendo solo el fondo del compartimiento del ahumador.",
+            "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+            "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+            "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Agrega rápidamente la mezcla de whiskey preparada del vaso mezclador al vaso ahumado.",
+            "Agrega piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+            "Decora con un twist de naranja."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Vierte la mezcla de whiskey preparada en un vaso apto para ahumar.",
+          "Configuración del ahumador: Coloca el ahumador encima del vaso y ajusta el filtro metálico.",
+          "Virutas de madera: Usa pinzas para colocar una capa fina de virutas de cerezo, cubriendo solo el fondo del compartimiento del ahumador.",
+          "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+          "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+          "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente.",
+          "Agrega piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+          "Decora con un twist de naranja."
+        ],
+        "PREFERRED": [
+          "Buffalo Trace Bourbon: Un bourbon equilibrado con ricas notas de caramelo y vainilla, perfecto para un Old Fashioned.",
+          "Bulleit Rye: Conocido por su picante y complejidad, añade una profundidad única al cóctel.",
+          "Tu bourbon o whisky de centeno favorito también se puede usar."
+        ]
+      },
+      "SUMMER_APPLEWOOD": {
+        "TITLE": "Verano: Whiskey Smash Ahumado con Manzano",
+        "DESCRIPTION": "El verano trae calidez y días largos y soleados. El Whiskey Smash Ahumado con Manzano es un cóctel refrescante con un toque de menta fresca y limón, perfecto para refrescarse.",
+        "INGREDIENTS": [
+          "60 ml de bourbon (recomendado: Maker’s Mark) o whisky de centeno (recomendado: Bulleit Rye)",
+          "15 ml de jarabe simple",
+          "15 ml de jugo de limón fresco",
+          "4-5 hojas de menta fresca",
+          "Rodaja de limón para decorar",
+          "Piedras de metal para whiskey",
+          "Virutas de madera de manzano (usando las pinzas provistas)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "En un vaso mezclador, machaca las hojas de menta con el jarabe simple y el jugo de limón.",
+            "Agrega el whiskey y revuelve para combinar."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Configuración del ahumador: Coloca el ahumador en un vaso vacío y ajusta el filtro metálico.",
+            "Virutas de madera: Usa pinzas para colocar una capa delgada de virutas de manzano, cubriendo solo el fondo del compartimiento del ahumador.",
+            "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+            "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+            "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Agrega rápidamente la mezcla de whiskey preparada del vaso mezclador al vaso ahumado.",
+            "Agrega piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+            "Decora con una rodaja de limón y una ramita de menta."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Vierte la mezcla de whiskey preparada en un vaso apto para ahumar.",
+          "Configuración del ahumador: Coloca el ahumador encima del vaso y ajusta el filtro metálico.",
+          "Virutas de madera: Usa pinzas para colocar una capa delgada de virutas de manzano, cubriendo solo el fondo del compartimiento del ahumador.",
+          "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+          "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+          "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente.",
+          "Agrega piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+          "Decora con una rodaja de limón y una ramita de menta."
+        ],
+        "PREFERRED": [
+          "Maker’s Mark Bourbon: Conocido por su sabor suave y rico, complementa la frescura de la menta y el limón.",
+          "Bulleit Rye: Aporta un toque picante que combina bien con los cítricos y la menta.",
+          "Tu bourbon o whisky de centeno favorito también se puede usar."
+        ]
+      },
+      "FALL_HICKORY": {
+        "TITLE": "Otoño: Manhattan de Arce Ahumado con Nogal",
+        "DESCRIPTION": "El otoño es una temporada de colores cálidos y sabores acogedores. El Manhattan de Arce Ahumado con Nogal combina la calidez del whiskey con la dulzura del jarabe de arce, perfecto para las frescas noches de otoño.",
+        "INGREDIENTS": [
+          "60 ml de whisky de centeno (recomendado: Bulleit Rye o Woodford Reserve Rye)",
+          "30 ml de vermut dulce",
+          "7 ml de jarabe de arce puro",
+          "2 gotas de Angostura bitters",
+          "Cereza marrasquino para decorar",
+          "Piedras de metal para whiskey",
+          "Virutas de nogal (usando las pinzas provistas)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "En un vaso mezclador, combina el vermut dulce, el jarabe de arce y los bitters hasta que estén bien mezclados.",
+            "Agrega el whiskey y revuelve para combinar."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Configuración del ahumador: Coloca el ahumador en un vaso vacío y ajusta el filtro metálico.",
+            "Virutas de madera: Usa pinzas para colocar una capa delgada de virutas de nogal, cubriendo solo el fondo del compartimiento del ahumador.",
+            "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+            "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+            "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Agrega rápidamente la mezcla de whiskey preparada del vaso mezclador al vaso ahumado.",
+            "Agrega piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+            "Decora con una cereza marrasquino."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Vierte la mezcla de whiskey preparada en un vaso apto para ahumar.",
+          "Configuración del ahumador: Coloca el ahumador encima del vaso y ajusta el filtro metálico.",
+          "Virutas de madera: Usa pinzas para colocar una capa delgada de virutas de nogal, cubriendo solo el fondo del compartimiento del ahumador.",
+          "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+          "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+          "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente.",
+          "Agrega piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+          "Decora con una cereza marrasquino."
+        ],
+        "PREFERRED": [
+          "Bulleit Rye: Su toque picante complementa la dulzura del jarabe de arce y la riqueza del vermut.",
+          "Woodford Reserve Rye: Ofrece un perfil de sabor equilibrado con notas de frutas y especias, realzando el toque otoñal del cóctel.",
+          "Tu bourbon o whisky de centeno favorito también se puede usar."
+        ]
+      },
+      "WINTER_OAK": {
+        "TITLE": "Invierno: Hot Toddy Especiado Ahumado con Roble",
+        "DESCRIPTION": "El invierno pide sabores cálidos y especiados para alegrar los días fríos. El Hot Toddy Especiado Ahumado con Roble es una bebida acogedora que aporta un espíritu festivo a la vida, perfecta para beber junto al fuego.",
+        "INGREDIENTS": [
+          "60 ml de bourbon (recomendado: Elijah Craig Small Batch) o whisky de centeno (recomendado: Rittenhouse Rye)",
+          "1 cucharada de miel",
+          "15 ml de jugo de limón fresco",
+          "1 rama de canela",
+          "3 clavos de olor",
+          "1 anís estrellado",
+          "Agua caliente",
+          "Piedras de metal para whiskey (opcional para enfriar el vaso antes de agregar agua caliente)",
+          "Virutas de roble (usando las pinzas provistas)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "En un vaso mezclador, combina miel, jugo de limón, rama de canela, clavos de olor y anís estrellado.",
+            "Agrega agua caliente para disolver la miel y revuelve.",
+            "Añade el whiskey y revuelve para combinar."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Configuración del ahumador: Coloca el ahumador en un vaso vacío y ajusta el filtro metálico.",
+            "Virutas de madera: Usa pinzas para colocar una capa delgada de virutas de roble, cubriendo solo el fondo del compartimiento del ahumador.",
+            "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+            "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+            "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Agrega rápidamente la mezcla de whiskey preparada del vaso mezclador al vaso ahumado.",
+            "Añade piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+            "Decora con una rodaja de limón y una rama de canela adicional."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Vierte la mezcla de whiskey preparada en un vaso apto para ahumar.",
+          "Configuración del ahumador: Coloca el ahumador encima del vaso y ajusta el filtro metálico.",
+          "Virutas de madera: Usa pinzas para colocar una capa delgada de virutas de roble, cubriendo solo el fondo del compartimiento del ahumador.",
+          "Antorcha: Sostén la antorcha en un ángulo de 90 grados y enciende las virutas durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo.",
+          "Tiempo de ahumado: Cubre con la tapa del ahumador durante 1-2 minutos para infundir el sabor ahumado.",
+          "Seguridad: Retira cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente.",
+          "Añade la mezcla preparada del vaso mezclador al vaso de whiskey ahumado.",
+          "Añade piedras de metal para whiskey y revuelve hasta que se mezcle bien.",
+          "Decora con una rodaja de limón y una rama de canela adicional."
+        ],
+        "PREFERRED": [
+          "Elijah Craig Small Batch Bourbon: Su sabor rico y completo combina bien con las especias y la miel en el hot toddy.",
+          "Rittenhouse Rye: Añade una nota robusta y picante que realza la calidez y profundidad de la bebida.",
+          "Tu bourbon o whisky de centeno favorito también se puede usar."
+        ]
+      }
+    },
+    "INSTRUCTIONS": {
+      "TITLE": "Instrucciones",
+      "SUBTITLE": "Para garantizar una experiencia fluida y placentera con su ahumador de cócteles, siga estas instrucciones detalladas:",
+      "ADDITIONAL_TIPS": "Consejos Adicionales",
+      "LIST": {
+        "SMOKER_SETUP": "Coloque el ahumador sobre un vaso vacío y asegure el filtro metálico correctamente.",
+        "WOOD_CHIPS": "Use pinzas para colocar una capa fina de astillas de madera (como cerezo, manzano, nogal o roble) en la cámara del ahumador. No lo llene en exceso; una pequeña cantidad es suficiente para producir el humo deseado.",
+        "TORCH": "Sostenga la antorcha en un ángulo de 90 grados. Encienda las astillas de madera aplicando la llama directamente durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo. Asegúrese de manejar la antorcha de forma segura y evite el contacto directo con las partes de madera del ahumador para evitar daños.",
+        "SMOKE_TIME": "Cubra el vaso con la tapa del ahumador y deje que el humo se infunda durante 1-2 minutos. Cuanto más tiempo lo deje cubierto, más intenso será el sabor ahumado.",
+        "HANDLING_SAFETY": "Retire cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente para prevenir quemaduras.",
+        "POUR_WHISKEY": "Vierta inmediatamente su whisky o cóctel preparado en el vaso ahumado. Este paso asegura que el sabor ahumado se integre bien con la bebida.",
+        "METAL_ICE_CUBES": "Enjuague y seque los cubos de metal, colóquelos en una bolsa de terciopelo y refrigere durante 1-2 horas antes de usarlos. Los cubos de metal son preferidos sobre el hielo para evitar diluir el cóctel.",
+        "SERVING": "Agregue los cubos de metal fríos directamente al whisky o cóctel en el vaso ahumado y disfrute de su bebida."
+      },
+      "TIPS": [
+        "<strong>Experimente con los tiempos de ahumado:</strong> Comience con un tiempo de infusión más corto y ajústelo según su preferencia de sabor ahumado.",
+        "<strong>Tipos de astillas de madera:</strong> Diferentes maderas aportan diferentes sabores. Las astillas de cerezo, por ejemplo, son excelentes para un sabor suave y dulce, mientras que las astillas de roble proporcionan un sabor robusto y rico.",
+        "<strong>Limpieza:</strong> Asegúrese de limpiar el ahumador después de cada uso. Elimine las astillas de madera o el carbón del filtro y limpie las partes de madera con un paño seco o húmedo según sea necesario. Use el cepillo proporcionado para limpiar el filtro metálico. Evite sumergir el ahumador en agua."
+      ],
+      "TORCH": {
+        "TITLE": "Antorcha",
+        "DESCRIPTION": "Domine la llama: Guía experta para rellenar su antorcha",
+        "STEPS": [
+          "Asegúrese de elegir un bote de butano con una boquilla larga.",
+          "Ubique la válvula de llenado de gas en la antorcha.",
+          "Inserte la boquilla del bote de butano en la válvula de llenado de gas de manera segura.",
+          "Sostenga la antorcha boca abajo y presione firmemente para llenar durante no más de 8 segundos.",
+          "Asegúrese de que la antorcha esté encendida y lista para usar."
+        ]
+      },
+      "STONES": {
+        "TITLE": "Instrucciones detalladas para usar piedras de whisky metálicas con gel en su interior",
+        "DESCRIPTION": "Configuración y uso:",
+        "STEPS": [
+          "Enjuague las piedras de whisky metálicas con agua para eliminar cualquier residuo del almacenamiento.",
+          "Seque bien las piedras antes de enfriarlas.",
+          "Coloque las piedras metálicas limpias y secas en la bolsa de terciopelo proporcionada.",
+          "Ponga la bolsa en el congelador durante al menos 2 horas antes de su uso. El gel dentro de las piedras se congelará, asegurando que se mantengan frías durante mucho tiempo.",
+          "Una vez enfriadas, agregue 2-3 piedras a su vaso de whisky, cóctel o cualquier bebida preferida.",
+          "Deje las piedras en la bebida durante unos minutos para enfriarla sin diluir el sabor.",
+          "¡Disfrute de su bebida perfectamente fría!"
+        ],
+        "CLEANING": {
+          "TITLE": "Limpieza y almacenamiento",
+          "STEPS": [
+            "Después de usar las piedras de whisky metálicas, enjuáguelas con agua tibia para eliminar cualquier residuo de la bebida.",
+            "Seque las piedras con un paño limpio y déjelas secar al aire antes de guardarlas.",
+            "Coloque las piedras secas en la bolsa de terciopelo y guárdelas en el congelador para su próximo uso.",
+            "No lave las piedras de whisky metálicas en el lavavajillas, ya que esto puede dañar el gel interior."
+          ],
+          "CONCLUSION": "Siga estos pasos para mantener sus piedras de whisky metálicas limpias y listas para usar en cualquier momento."
+        }
+      },
+      "ADVANTAGES": {
+        "TITLE": "Ventajas de las Piedras de Whisky Metálicas sobre los Cubos de Hielo Convencionales:",
+        "NON_DILUTING": {
+          "TITLE": "Sin Dilución",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> Las piedras de whisky metálicas no se derriten, lo que significa que enfrían tu bebida sin diluirla. Esto preserva el sabor y la fuerza original de tu bebida.",
+            "<u><b>Cubos de Hielo:</b></u> A medida que los cubos de hielo se derriten, diluyen la bebida, alterando su sabor y reduciendo su potencia."
+          ]
+        },
+        "LONG_LASTING_COOLING": {
+          "TITLE": "Enfriamiento Duradero",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> El gel dentro de las piedras de whisky metálicas se congela y permanece frío durante un período prolongado, proporcionando un enfriamiento constante durante tu experiencia de bebida.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo pueden derretirse rápidamente, especialmente en ambientes cálidos, reduciendo su efectividad con el tiempo."
+          ]
+        },
+        "MATERIAL_AND_SAFETY": {
+          "TITLE": "Material y Seguridad",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> Hechas de acero inoxidable de grado alimenticio, las piedras de whisky metálicas son seguras, duraderas y resistentes a la corrosión. No imparten sabores u olores no deseados a la bebida.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo están hechos de agua y, a veces, pueden contener impurezas o sabores del congelador."
+          ]
+        },
+        "REUSABLE": {
+          "TITLE": "Reutilizables",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> Las piedras de whisky metálicas son reutilizables. Simplemente enjuágalas después de usarlas, sécalas y colócalas nuevamente en el congelador para el siguiente uso.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo son de un solo uso y necesitan ser reemplazados para cada bebida, lo que requiere un suministro constante de agua limpia y espacio en el congelador."
+          ]
+        },
+        "AESTHETIC_APPEAL": {
+          "TITLE": "Atractivo Estético",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> El diseño elegante y moderno de las piedras de acero inoxidable añade un toque de elegancia a cualquier bebida, lo que las convierte en una adición perfecta para entretener a los invitados o para disfrute personal.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo tradicionales son prácticos pero carecen del atractivo visual de las piedras de whisky metálicas."
+          ]
+        },
+        "ENHANCED_COOLING_EFFICIENCY": {
+          "TITLE": "Eficiencia de Enfriamiento Mejorada",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> El núcleo de gel dentro de las piedras mejora su capacidad de enfriamiento, haciéndolas más eficientes para enfriar bebidas en comparación con las piedras metálicas sólidas regulares.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo proporcionan un enfriamiento efectivo pero se derriten con el tiempo, lo que puede llevar a un control inconsistente de la temperatura."
+          ]
+        }
+      }
+    },
+    "TIPS": {
+      "TITLE": "Consejos para fumar correctamente con un ahumador de cócteles: primero el vaso y luego el whisky",
+      "GLASS_FIRST": {
+        "TITLE": "Fumar el vaso primero: el toque sutil",
+        "WHY_SMOKE_THE_GLASS": {
+          "TITLE": "¿Por qué ahumar el vaso?",
+          "STEPS": [
+            "Sabor equilibrado: Ahumar el vaso le da a tu bebida un sabor ahumado suave. El humo permanece en el vaso y se mezcla lentamente con tu cóctel, asegurando que no sobrepase el sabor de la bebida.",
+            "Aromas intensos: Cuando ahúmas el vaso, el aroma te llega incluso antes de tomar un sorbo. Esto crea una experiencia sensorial inmersiva, involucrando tanto el olfato como el gusto.",
+            "Impacto visual: Ver el humo girar alrededor del vaso mientras viertes tu bebida agrega un atractivo visual dramático que impresiona a los invitados y eleva la presentación del cóctel."
+          ]
+        },
+        "HOW_TO_SMOKE_THE_GLASS": {
+          "TITLE": "Cómo ahumar el vaso",
+          "STEPS": [
+            "Prepara el ahumador en un vaso vacío.",
+            "Usa pinzas para colocar una pequeña cantidad de astillas de madera en la cámara del ahumador.",
+            "Enciende las astillas con un soplete durante 5-7 segundos hasta que comiencen a humear.",
+            "Cubre el vaso con la tapa del ahumador durante 1-2 minutos.",
+            "Retira cuidadosamente el ahumador, evitando las partes metálicas calientes.",
+            "Vierte tu cóctel preparado en el vaso ahumado."
+          ]
+        }
+      },
+      "WHISKEY_FIRST": {
+        "TITLE": "Fumar el whisky primero: una decisión audaz",
+        "WHY_SMOKE_THE_GLASS": {
+          "TITLE": "¿Por qué ahumar el whisky?",
+          "STEPS": [
+            "Sabor intenso: Ahumar el whisky directamente da como resultado un sabor ahumado más fuerte y pronunciado. Es perfecto para quienes prefieren un sabor audaz que destaque.",
+            "Infusión profunda: El humo penetra profundamente en el whisky, creando capas de complejidad y riqueza en cada sorbo.",
+            "Sabor uniforme: Ahumar el whisky garantiza que el sabor ahumado se distribuya uniformemente, haciendo que cada sorbo sea consistente y delicioso."
+          ]
+        },
+        "HOW_TO_SMOKE_THE_GLASS": {
+          "TITLE": "Cómo ahumar el whisky",
+          "STEPS": [
+            "Vierte tu whisky o cóctel en un vaso adecuado.",
+            "Coloca el ahumador sobre el vaso.",
+            "Añade una pequeña cantidad de astillas de madera en la cámara del ahumador.",
+            "Enciende las astillas con un soplete durante 5-7 segundos hasta que comiencen a humear.",
+            "Cubre el vaso con la tapa del ahumador durante 1-2 minutos.",
+            "Retira cuidadosamente el ahumador, evitando las partes metálicas calientes.",
+            "Disfruta de tu bebida ahumada."
+          ]
+        }
+      },
+      "CONCLUSIONS": {
+        "TITLE": "Conclusiones",
+        "DESCRIPTION": "Ya sea que prefieras el atractivo aromático sutil de ahumar el vaso o el sabor intenso y audaz de ahumar el whisky, cada método ofrece una forma única de disfrutar tus cócteles.",
+        "STEPS": [
+          "Ahumar el vaso primero para una experiencia suave y aromática que realza el atractivo sensorial y agrega un toque de elegancia a tu bebida.",
+          "Ahumar el whisky primero para un sabor audaz y rico que transforma tu cóctel en una obra maestra ahumada."
+        ]
+      }
+    }
+  }
+}
