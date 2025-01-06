@@ -3,13 +3,10 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
-import { ref } from 'vue';
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import SectionSubHeader from '@/components/sections/components/section-sub-header.vue';
 import BaseImage from '@/components/kit/base-image.vue';
 import {isMobileDevice} from '@/helpers/isMobileDevice.ts'
-
-const aboutVideo = ref(null);
 
 </script>
 
@@ -22,7 +19,6 @@ const aboutVideo = ref(null);
     <div class="w-full max-w-7xl mb-10 about-video-container">
       <!--      TODO improve video logic-->
       <video
-        ref="aboutVideo"
         muted
         playsinline
         :loop="!isMobileDevice()"
