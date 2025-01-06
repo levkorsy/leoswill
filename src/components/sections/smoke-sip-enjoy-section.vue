@@ -3,17 +3,14 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
-import { onMounted, ref } from 'vue';
-import useVideoTrigger from '@/composables/useVideoTrigger.ts';
+import { ref } from 'vue';
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import SectionSubHeader from '@/components/sections/components/section-sub-header.vue';
 import BaseImage from '@/components/kit/base-image.vue';
+import {isMobileDevice} from '@/helpers/isMobileDevice.ts'
 
 const aboutVideo = ref(null);
 
-onMounted(() => {
-  useVideoTrigger(aboutVideo);
-});
 </script>
 
 <template>
@@ -28,7 +25,9 @@ onMounted(() => {
         ref="aboutVideo"
         muted
         playsinline
-        loop
+        :loop="!isMobileDevice()"
+        :autoplay="!isMobileDevice()"
+        :controls="isMobileDevice()"
         preload="auto"
         class="w-full h-auto rounded-lg shadow-lg"
       >
