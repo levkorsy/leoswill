@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/lw-v3',
+  base: '/leoswill',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
