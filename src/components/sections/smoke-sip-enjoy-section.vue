@@ -6,8 +6,7 @@ const { t } = useI18n();
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import SectionSubHeader from '@/components/sections/components/section-sub-header.vue';
 import BaseImage from '@/components/kit/base-image.vue';
-import {isMobileDevice} from '@/helpers/isMobileDevice.ts'
-
+import { isMobileDevice } from '@/helpers/isMobileDevice.ts';
 </script>
 
 <template>
@@ -19,16 +18,14 @@ import {isMobileDevice} from '@/helpers/isMobileDevice.ts'
     <div class="w-full max-w-7xl mb-10 about-video-container">
       <!--      TODO improve video logic-->
       <video
+        src="/videos/backround-vid.mp4"
         muted
         playsinline
         :loop="!isMobileDevice()"
         :autoplay="!isMobileDevice()"
         :controls="isMobileDevice()"
-        preload="auto"
         class="w-full h-auto rounded-lg shadow-lg"
-      >
-        <source src="/videos/backround-vid.mp4" type="video/mp4" />
-      </video>
+      ></video>
     </div>
 
     <div class="flex flex-col items-center w-full max-w-7xl">
