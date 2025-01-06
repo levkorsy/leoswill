@@ -22,7 +22,7 @@ import { isMobileDevice } from '@/helpers/isMobileDevice.ts';
         muted
         playsinline
         :loop="!isMobileDevice()"
-        :autoplay="!isMobileDevice()"
+        autoplay
         :controls="isMobileDevice()"
         class="w-full h-auto rounded-lg shadow-lg"
       ></video>
