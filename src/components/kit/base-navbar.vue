@@ -1,47 +1,11 @@
 <script setup lang="ts">
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
-import { useI18n } from 'vue-i18n';
-import { ref, watchEffect } from 'vue';
 import LangSwitcher from '@/components/kit/lang-switcher.vue';
 import SocialMedia from '@/components/kit/social-media.vue';
-import scrollIntoView from '@/helpers/scroll-into-view.ts';
+import { useNavigation } from '@/composables/useNavigation.ts';
 
-const { t } = useI18n();
-
-interface NavigationItem {
-  name: string;
-  href: string;
-  current: boolean;
-}
-
-const navigation = ref<NavigationItem[]>([]);
-
-const updateNavigation = () => {
-  navigation.value = [
-    { name: t('NAVBAR.HOME'), href: '#home', current: true },
-    {
-      name: t('NAVBAR.SMOKE_SIP_ENJOY'),
-      href: '#smoke_sip_enjoy',
-      current: false,
-    },
-    { name: t('NAVBAR.RECIPES'), href: '#recipes', current: false },
-    { name: t('NAVBAR.INSTRUCTIONS'), href: '#instructions', current: false },
-    { name: t('NAVBAR.TIPS'), href: '#tips', current: false },
-  ];
-};
-
-watchEffect(() => {
-  updateNavigation();
-});
-
-const handleNavigation = (item: NavigationItem) => {
-  navigation.value.forEach((navItem) => {
-    navItem.current = navItem.name === item.name;
-  });
-  //TODO fix navigation
-  scrollIntoView(item.href);
-};
+const { handleNavigation, navigation } = useNavigation();
 </script>
 
 <template>

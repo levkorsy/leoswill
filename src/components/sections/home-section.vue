@@ -2,18 +2,23 @@
 import SmokeCanvas from '@/components/kit/smoke-canvas.vue';
 import BaseButton from '@/components/kit/base-button.vue';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import scrollIntoView from '@/helpers/scroll-into-view.ts';
 import { useI18n } from 'vue-i18n';
 import { useElementVisibility } from '@/composables/useElementVisibility.ts';
+import { useNavigation } from '@/composables/useNavigation.ts';
 
 const { t } = useI18n();
 
 const { isVisible: isCanvasVisible } = useElementVisibility(
   '.smoke-canvas-container'
 );
+const { handleNavigation } = useNavigation();
 
 const handleLetsTry = () => {
-  scrollIntoView('#smoke-sip-enjoy', 'start');
+  handleNavigation({
+    name: t('NAVBAR.SMOKE_SIP_ENJOY'),
+    href: '#smoke-sip-enjoy',
+    current: false,
+  });
 };
 </script>
 
