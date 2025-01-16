@@ -5,7 +5,7 @@ import LangSwitcher from '@/components/kit/lang-switcher.vue';
 import SocialMedia from '@/components/kit/social-media.vue';
 import { useNavigation } from '@/composables/useNavigation.ts';
 
-const { handleNavigation, navigation } = useNavigation();
+const { handleNavigation, isNavItemActive, navigationItems } = useNavigation();
 </script>
 
 <template>
@@ -33,16 +33,16 @@ const { handleNavigation, navigation } = useNavigation();
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a
-                v-for="item in navigation"
+                v-for="item in navigationItems"
                 :key="item.name"
                 :href="item.href"
                 :class="[
-                  item.current
+                  isNavItemActive(item)
                     ? 'text-tertiary hover:text-tertiary'
                     : 'text-white hover:text-secondary',
                   'uppercase rounded-md px-3 py-2 text-base font-medium',
                 ]"
-                :aria-current="item.current ? 'page' : undefined"
+                :aria-current="isNavItemActive(item) ? 'page' : undefined"
                 @click="handleNavigation(item)"
                 >{{ item.name }}</a
               >
@@ -61,17 +61,17 @@ const { handleNavigation, navigation } = useNavigation();
     <DisclosurePanel class="sm:hidden bg-quaternary">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton
-          v-for="item in navigation"
+          v-for="item in navigationItems"
           :key="item.name"
           as="a"
           :href="item.href"
           :class="[
-            item.current
+            isNavItemActive(item)
               ? 'text-tertiary hover:text-tertiary'
               : 'text-white hover:text-secondary',
             'block uppercase rounded-md px-3 py-2 text-base font-medium',
           ]"
-          :aria-current="item.current ? 'page' : undefined"
+          :aria-current="isNavItemActive(item) ? 'page' : undefined"
           @click="handleNavigation(item)"
           >{{ item.name }}
         </DisclosureButton>

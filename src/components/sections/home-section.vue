@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import SmokeCanvas from '@/components/kit/smoke-canvas.vue';
 import BaseButton from '@/components/kit/base-button.vue';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -17,13 +17,13 @@ const handleLetsTry = () => {
   handleNavigation({
     name: t('NAVBAR.SMOKE_SIP_ENJOY'),
     href: '#smoke-sip-enjoy',
-    current: false,
   });
 };
 </script>
 
 <template>
   <section
+    id="home"
     class="flex items-center justify-center w-full h-screen bg-primary relative smoke-canvas-container"
   >
     <smoke-canvas v-if="isCanvasVisible" />

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import {
   Recipe,
@@ -22,6 +22,7 @@ const handleRecipeCardClick = (recipe: Recipe) => {
 
 <template>
   <section
+    id="recipes"
     class="flex flex-col items-center justify-start h-auto bg-primary py-10 px-2"
   >
     <section-header text="SECTIONS.RECIPES.TITLE" />
@@ -37,8 +38,8 @@ const handleRecipeCardClick = (recipe: Recipe) => {
   </section>
   <!--TODO add flip effect-->
   <recipe-preview-modal
-    :recipe="activeRecipe"
     :is-recipe-modal-open="isRecipeModalOpen"
+    :recipe="activeRecipe"
     @close="isRecipeModalOpen = false"
   />
 </template>
