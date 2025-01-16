@@ -32,7 +32,7 @@ export function useNavigation() {
       navItem.current = navItem.name === item.name;
     });
     //TODO fix navigation
-    scrollIntoView(item.href);
+    scrollIntoView(item.href, 'start');
   };
 
   watchEffect(() => {
