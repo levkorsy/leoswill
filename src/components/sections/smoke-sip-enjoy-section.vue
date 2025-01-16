@@ -12,7 +12,7 @@ import { isMobileDevice } from '@/helpers/isMobileDevice.ts';
 <template>
   <section
     id="smoke-sip-enjoy"
-    class="flex flex-col items-center justify-start h-auto bg-primary py-10"
+    class="flex flex-col items-center justify-start h-auto bg-primary"
   >
     <section-header class="mt-8" text="SECTIONS.SMOKE_SIP_ENJOY.TITLE" />
 

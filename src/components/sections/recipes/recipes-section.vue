@@ -23,7 +23,7 @@ const handleRecipeCardClick = (recipe: Recipe) => {
 <template>
   <section
     id="recipes"
-    class="flex flex-col items-center justify-start h-auto bg-primary py-10 px-2"
+    class="flex flex-col items-center justify-start h-auto bg-primary px-2"
   >
     <section-header text="SECTIONS.RECIPES.TITLE" />
 

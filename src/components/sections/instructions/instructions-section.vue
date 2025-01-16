@@ -13,7 +13,7 @@ import MetalStonesCleaning from '@/components/sections/instructions/metal-stones
 <template>
   <section
     id="instructions"
-    class="flex flex-col items-center justify-start h-auto bg-primary py-10 px-2"
+    class="flex flex-col items-center justify-start h-auto bg-primary px-2"
   >
     <section-header text="SECTIONS.INSTRUCTIONS.TITLE" />
 
