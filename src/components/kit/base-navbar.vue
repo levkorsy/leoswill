@@ -32,10 +32,9 @@ const { handleNavigation, isNavItemActive, navigationItems } = useNavigation();
         >
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <a
+              <button
                 v-for="item in navigationItems"
                 :key="item.name"
-                :href="item.href"
                 :class="[
                   isNavItemActive(item)
                     ? 'text-tertiary hover:text-tertiary'
@@ -44,8 +43,9 @@ const { handleNavigation, isNavItemActive, navigationItems } = useNavigation();
                 ]"
                 :aria-current="isNavItemActive(item) ? 'page' : undefined"
                 @click="handleNavigation(item)"
-                >{{ item.name }}</a
               >
+                {{ item.name }}
+              </button>
             </div>
           </div>
         </div>
@@ -63,8 +63,7 @@ const { handleNavigation, isNavItemActive, navigationItems } = useNavigation();
         <DisclosureButton
           v-for="item in navigationItems"
           :key="item.name"
-          as="a"
-          :href="item.href"
+          as="button"
           :class="[
             isNavItemActive(item)
               ? 'text-tertiary hover:text-tertiary'
