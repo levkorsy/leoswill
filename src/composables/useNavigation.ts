@@ -1,4 +1,4 @@
-import { computed, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import scrollIntoView from '@/helpers/scroll-into-view.ts';
 
@@ -21,20 +21,42 @@ export function useNavigation() {
     { name: t('NAVBAR.TIPS'), href: '#tips' },
   ]);
 
-  const activeNavItem = ref<string>(t('NAVBAR.HOME'));
+  const activeNavItem = ref<string>('#home');
+
+  const isNavItemActive = (item: NavigationItem) => {
+    return item.href === activeNavItem.value;
+  };
 
   const handleNavigation = (item: NavigationItem) => {
-    activeNavItem.value = item.name;
-    //TODO fix navigation
+    activeNavItem.value = item.href;
+
     scrollIntoView(item.href, 'start');
   };
 
-  // watchEffect(() => {
-  //   updateNavigation();
-  // });
+  const observer = ref<IntersectionObserver | null>(null);
 
-  const isNavItemActive = (item: NavigationItem) =>
-    item.name === activeNavItem.value;
+  const createObserver = () => {
+    observer.value = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          activeNavItem.value = `#${entry.target.id}`;
+        }
+      });
+    });
+
+    const sections = document.querySelectorAll('section');
+    sections.forEach((section) => observer.value!.observe(section));
+  };
+
+  onMounted(() => {
+    createObserver();
+  });
+
+  onUnmounted(() => {
+    if (observer.value) {
+      observer.value.disconnect();
+    }
+  });
 
   return { handleNavigation, isNavItemActive, navigationItems };
 }
