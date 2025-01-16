@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue';
 import BaseNavbar from './kit/base-navbar.vue';
 import ViewsContainer from './kit/views-container.vue';
 import BaseFooter from './kit/base-footer.vue';
+import BackToTopButton from '@/components/kit/back-to-top-button.vue';
 
 const isNavbarVisible = ref(false);
 
@@ -39,6 +40,8 @@ onMounted(() => {
 
       <base-footer class="h-[80px] bg-gray-900 text-white" />
     </div>
+
+    <back-to-top-button />
   </div>
 </template>
 

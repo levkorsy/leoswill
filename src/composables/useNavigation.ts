@@ -48,6 +48,16 @@ export function useNavigation() {
     sections.forEach((section) => observer.value!.observe(section));
   };
 
+  const isShowBackToTopButton = computed(() => {
+    const sectionsToShowBackToTopButton = [
+      '#recipes',
+      '#instructions',
+      '#tips',
+    ];
+
+    return sectionsToShowBackToTopButton.includes(activeNavItem.value);
+  });
+
   onMounted(() => {
     createObserver();
   });
@@ -58,5 +68,10 @@ export function useNavigation() {
     }
   });
 
-  return { handleNavigation, isNavItemActive, navigationItems };
+  return {
+    handleNavigation,
+    isNavItemActive,
+    navigationItems,
+    isShowBackToTopButton,
+  };
 }
