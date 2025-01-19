@@ -1,7 +1,5 @@
 /* eslint-disable */
 // @ts-nocheck
-import { logger } from '@/helpers/logging';
-
 export default (canvas: Element): void => {
   canvas.width = canvas.clientWidth;
   canvas.height = canvas.clientHeight;
@@ -40,13 +38,6 @@ export default (canvas: Element): void => {
       gl =
         canvas.getContext('webgl', params) ||
         canvas.getContext('experimental-webgl', params);
-
-    if (!gl.getExtension('OES_texture_half_float')) {
-      logger.error('OES_texture_half_float not supported');
-    }
-    if (!gl.getExtension('OES_texture_float_linear')) {
-      logger.error('OES_texture_float_linear not supported');
-    }
 
     var halfFloat = gl?.getExtension('OES_texture_half_float');
     var support_linear_float = gl.getExtension('OES_texture_half_float_linear');
@@ -134,9 +125,6 @@ export default (canvas: Element): void => {
     if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS))
       throw gl.getShaderInfoLog(shader);
 
-    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-      logger.error('Shader compilation error:', gl.getShaderInfoLog(shader));
-    }
     return shader;
   }
 
@@ -268,11 +256,6 @@ export default (canvas: Element): void => {
   }
 
   function createFBO(texId, w, h, internalFormat, format, type, param) {
-    if (w === 0 || h === 0) {
-      logger.error('Texture size cannot be zero');
-      return null;
-    }
-
     gl.activeTexture(gl.TEXTURE0 + texId);
 
     var texture = gl.createTexture();
